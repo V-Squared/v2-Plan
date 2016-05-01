@@ -84,3 +84,17 @@
     }
   }
 }
+.sub-breadcrumb {
+  margin:0;
+
+  padding-right: 10%;
+
+  li > a {
+
+    &:hover {
+      background:transparent;
+      color:#FFF;
+      text-decoration: underline;
+    }
+  }
+}
