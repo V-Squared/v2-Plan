@@ -70,7 +70,7 @@ For more information → V²Plan Reference Manual
 ## Develop V²Plan Tools to manage remaining 3 Levels
 <font color="grey">??? Take the top 3 levels of Pyramid Illustrations. Move Table content to tooltips with links to specific sections in Reference Manual???</font>
 
-We are in the process to develop tools for the remaining 3 levels:
+The top 3 levels of our V²PLan Architecture have no equivalent GitHub tool. As such we are in the process to develop them:
 
 | V² Plan Level | Tool |
 |--------------:|:-------------------|
