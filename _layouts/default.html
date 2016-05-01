@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="site">
 
   {% include head.html %}
 
-  <body>
+  <body ng-controller="mainController as vm">
 
     {% include header.html %}
 
+    {% include sub-header.html %}
+
     <div class="page-content">
-      <div class="wrapper">
+    <div class="jumbotron">
+        <div class="uk-container uk-container-center">
+          <h1>{{ page.title }}</h1>
+          <p>{{ page.description }}</p>
+        </div>
+      </div>
+      <div class="uk-container uk-container-center">
         {{ content }}
       </div>
     </div>
