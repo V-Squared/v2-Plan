@@ -24,7 +24,7 @@
 	{% endfor %}
 	</ol>
 		<ul class="uk-navbar-nav sub-navbar-nav">
-     	{% for my_page in site.pages %}
+     	{% for my_page in site.pages | sort: "order" %}
      	  {% if my_page.title %}
      	  {% if my_page.title != "V² Plan Home" %}
      	  <li><a href="{{ my_page.url | prepend: site.baseurl }}" class="{% if page.url == my_page.url %}uk-active{% endif %}">{{ my_page.title }}</a></li>
