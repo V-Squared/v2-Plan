@@ -1,6 +1,7 @@
 ---
 layout: default
 title: V² Plan Home
+description: How V² will improve your life, how we make it happen and how you can help. In addition V²Plan is growing into a generic Agile & TPS management system.
 ---
 
 ## Purpose <a name="purpose"></a>
