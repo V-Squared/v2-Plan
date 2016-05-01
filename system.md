@@ -58,9 +58,9 @@ GitHub's key management tool is GitHub Issues. When properly used it works very 
 | 7-V²Tasks | Tasks in GitHub Issues |
 | 6-V²Issues | Individual Issue of GitHub Issues |
 | 5-V²Sprint | Issues grouped via Label in GitHub Issues. Managed with [Waffle](https://waffle.io/)|
-| 4&#8209;V²Milestones | Issues (of same Repository) grouped via Milestone GitHub Issues. (*1) |
+| 4&#8209;V²Milestones | Issues (of same Repository) grouped via Milestone GitHub Issues [^1]. |
 
-<font color="grey">(*1) *V² Plan Tools manages Cross Repository dependencies. As such we do not need Milestones to do that*</font>
+[^1]: V² Plan Tools manages Cross Repository dependencies. As such we do not need Milestones to do that
 
 For more information → V²Plan Reference Manual
 
@@ -79,6 +79,7 @@ For more information → V²Plan Reference Manual
 
 # How it all fits together <a name="fits"></a>
 ![](http://www.presentationmagazine.com/powerpoint-templates/0/0/00358/powerpoint-jigsaw-puzzle-template_1.jpg)
+
 *???Draw this Image same style as the puzzle in the V² Home Page. Hover over Puzzle piece will show the tool tip with the content from the table below with links to their Articles???*
 
 Directing and coordinating so many projects over such an extended time is no small matter. We are in the process of writing Articles on each topic to guide *Contributors* to find work faster and to deliver *Pull Requests* that are easy to merge:
