@@ -1,5 +1,6 @@
 ---
 layout: default
+title: V² Plan Home
 ---
 
 ## Purpose <a name="purpose"></a>
