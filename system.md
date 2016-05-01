@@ -44,6 +44,7 @@ We needed a System to efficiently manage development and production using Agile 
 # Cross Repo Management <a name="cross-repo"></a>
 
 ## Not everyone needs Cross Repo Management
+
 In fact most GitHub Organization will work well without it. This may be the reason why 
 GitHub has efficient tools to manage development within a repository. It has however no tools whatsoever to coordinate development across repositories. If you are interesting to adapt V²Plan for your Organization, please read → Adapting V²Plan. It also includes a simplified version for this case.
 
