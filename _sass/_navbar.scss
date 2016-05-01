@@ -8,6 +8,10 @@
     padding: 19.5px 15px;
     line-height:inherit;
     cursor:pointer !important;
+
+    &.active {
+      background:#037CB7;
+    }
 }
 @media (max-width:827px) {
   .v2-navbar-nav > li > a {
@@ -87,7 +91,9 @@
 .sub-breadcrumb {
   margin:0;
 
-  padding-right: 10%;
+  width:150px;
+
+  padding-right: 115px;
 
   li > a {
 
