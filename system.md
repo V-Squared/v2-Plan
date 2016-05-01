@@ -17,7 +17,7 @@ order: 4
 
 
 # Generic Introduction <a name="intro"></a>
-All description on using V²System is in the [Introduction to V²Plan](/v2-Plan).
+All description on using V²Plan System is in the [Introduction to V²Plan](/v2-Plan).
 
 
 # Eating our own Dog Foot <a name="dog-foot"></a>
@@ -34,7 +34,7 @@ We needed a System to efficiently manage development and production using Agile 
 6. **Consistent use for all types of Development:** We develop: **1)** Software, **2)** Hardware, **3)** Standards **4)** Production Methods **5)** Documentation **6)** Art. All methods have been carefully designed that they work on all 6 types.
 7. **Add Missing Tools:** While we use all available GitHub Tools to manage our projects we added missing tools for:  **1)** Kanban (Scrum) Boards, **2)** Gantt Charts, **3)** Road Maps, **4)** Dashboard
 8. **Making the Plan easy to understand:** The best way to reach our target in an effective way on time is to deliver easy to find answers to the following questions: **1)** Where are we going? **2)** What work needs to be done? **3)** how to track if we are on time? 
-9. **Easy Documentation:** Easy accessible and nice to read documentation increases the odds that contributors work towards the same goal delivering work that is compatible to each other and fast to integrate the *Pull Request*.
+9. **Easy Documentation:** Easy accessible and nice to read documentation increases the odds that contributors work towards the same goal delivering work that is compatible to each other and that their *Pull Request* are easy to integrate.
 10. **Visual and Visible Progress:** Seeing that you or your colleagues made progress is motivating and as such we added lots of visual progress indicators to the *V² Plan Workflow*.
 11. **Easy to Contribute:** The success of *V² Initiative* depends on *Contribution*. As such it is essential for our success to make contribution easy. The Architecture in V²Plan makes it easy to make **1)** Feature Requests / Bug Reports, **2)** Contribute Work and **3)** Get involved  with Management.
 12. **Clean Access Privileges:** Architecture and workflow is designed for clean and strict access privilege management, yet allowing the contributor to work unhindered.
@@ -42,6 +42,7 @@ We needed a System to efficiently manage development and production using Agile 
 
 
 # Cross Repo Management <a name="cross-repo"></a>
+
 ## Not everyone needs Cross Repo Management
 In fact most GitHub Organization will work well without it. This may be the reason why 
 GitHub has efficient tools to manage development within a repository. It has however no tools whatsoever to coordinate development across repositories. If you are interesting to adapt V²Plan for your Organization, please read → Adapting V²Plan. It also includes a simplified version for this case.
