@@ -90,7 +90,7 @@ Directing and coordinating so many projects over such an extended time is no sma
 | Manual | Content
 |---------:|:----------------|
 |V²Plan Introduction | Purpose, Motivation, Methods, How it all fits together |
-|V²Plan Reference | Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to V²Agile|
+|[V²Plan Reference][1] | Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to V²Agile|
 |V²Agile Workflow | All Steps from Vision to Ideas through Sprint Development to Product involving everyone |
 |V²Sprint Workflow | Sprint Cycle Workflow, Roles & Communication, Continuous Iteration, Continuous Integration |
 |V²Roles & Comunication | Which *Role* is doing what *Jobs* communicating to whom using which *Tools*  | 
@@ -98,5 +98,7 @@ Directing and coordinating so many projects over such an extended time is no sma
 |V²Integration| Continuously test, integrate and deploy the *Product Increment*. For Software, Hardware, Standards, Production Methods and Art   |
 |V²Plan Cheat Sheet | All interactive Info Graphics in one page |
 |Adapting V²Plan| Tutorials and suggestions on how to adapt V²Plan for other organizations
+
+[1]: https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/plan-reference.md
 
 
