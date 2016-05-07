@@ -6,3 +6,18 @@ description: The target is expressed in <strong>V² True North</strong> which is
 breadcrumbs: Target
 order: 1
 ---
+
+
+--------------------------
+
+# Status
+
+| Type  | Info |
+|------:|:-----|
+| Source | Classeur |
+| Readiness | Develop |
+| On GitHub | [target.md](https://github.com/V-Squared/v2-Plan/edit/gh-pages/system.md) |
+| Issue | [ Write & Publish True North #16 ](https://github.com/V-Squared/v2-Plan/issues/16) | 
+
+--------------------------
+
