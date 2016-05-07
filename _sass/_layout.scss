@@ -269,6 +269,10 @@
         font-size:42px;
         margin:0;
     }
+    
+    p {
+      margin:0;
+    }
 
     .jumbotron-title {
       display: -webkit-box;
@@ -296,8 +300,12 @@
   color: #888;
 }
 .jumbotron {
-  background: #F5F5F5;
-  padding: 100px 0;
+  background:#2196F3;
+  padding: 25px 0 10px 0;
+  
+  h1,p {
+    color:#FFF;
+  }
 
   .jumbotron-title {
 

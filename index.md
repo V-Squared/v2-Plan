@@ -39,7 +39,6 @@ V²Plan is our vision, guide and methodology to mange all our projects from begi
 - Ensure that all projects work in harmony towards our *True North*
 
 
-
 # Elements <a name="elements"></a>
 1. **Target:** The target is expressed in **V² True North** which is a vision on how the world will look like in 2021 after the successful introduction of V², showing how V² improves your life. It shows the user where we are going and directs the contributor how to get there.
 2. **Road Map:** **The Road Map** shows the way to reach **V² True North** via consecutive **Campaigns**. A campaign is a group of **Milestones** and lasts about 3 months while focusing all our efforts.

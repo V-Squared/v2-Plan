@@ -14,8 +14,9 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>-->
-
-      <ul class="uk-navbar-nav v2-navbar-nav uk-hidden-small">
+      
+      <div class="uk-navbar-flip">
+        <ul class="uk-navbar-nav v2-navbar-nav uk-hidden-small">
         <li>
           <a href="#" v2-tooltip="All missing standards to find parts, build, upgrade, maintain and repair a modular Mini / All-In-One PC" class="{% if page.url == '/product' %}uk-active{% endif %}">Standards</a>
         </li>
@@ -37,15 +38,15 @@
         <li>
           <a href="#" v2-tooltip="V² Open Source Web Apps simplify experiencing or building V² PCs" class="{% if page.url == '/misc' %}uk-active{% endif %}">Apps</a>
         </li>
-        <li>
-          <a href="/v2-Plan" v2-tooltip="Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help" class="uk-active">Plan</a>
+        <li class="uk-active">
+          <a href="/v2-Plan" v2-tooltip="Our Plan, shared in Open Source on GitHub. Check out road maps, milestones or how you can help">Plan</a>
         </li>
         <li>
           <a href="#" v2-tooltip="About the people, process and legal stuff creating the V² Open Standards" class="{% if page.url == '/misc' %}uk-active{% endif %}">Organization</a>
         </li>
       </ul>
-      <div style="padding-top:5px;" class="uk-navbar-flip uk-visible-small">
-        <a href="#moble-site-nav" class="uk-navbar-toggle" data-uk-offcanvas></a>
+          
+        <a style="padding-top:17px;" href="#moble-site-nav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
       </div>
     <!--</nav>-->
 
