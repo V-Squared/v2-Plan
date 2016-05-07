@@ -101,7 +101,7 @@ For more information → V²Plan Reference Manual
 
 Directing and coordinating so many projects over such an extended time is no small matter. We are in the process of writing Articles on each topic to guide *Contributors* to find work faster and to deliver *Pull Requests* that are easy to merge:
 
-| Manual | Content
+| Article | Content
 |---------:|:----------------|
 |V²Plan Introduction | Purpose, Motivation, Methods, How it all fits together |
 |[V²Plan Reference][1] | Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to V²Agile|
@@ -118,5 +118,13 @@ Directing and coordinating so many projects over such an extended time is no sma
 [3]: http://v-squared.github.io/v2-Plan/system/sprint-workflow/
 [6]: http://v-squared.github.io/v2-Plan/system/agile-philosophy/
 
+
+## Additional Articles
+
+| Article | Content
+|---------:|:----------------|
+| [Problems of the Past][10] | List of Problems we experienced in the Past and how V² Plan is solving them. |
+
+[10]: http://v-squared.github.io/v2-Plan/system/problems/
 
 
