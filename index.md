@@ -16,7 +16,7 @@ order: 1
 |------:|:-----|
 | Source | Classeur |
 | Readiness | Develop |
-| On GitHub | [system.md](https://github.com/V-Squared/v2-Plan/edit/gh-pages/system.md) |
+| On GitHub | [index.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/index.md) |
 | Issue | [ Introduction to V²Plan #2](https://github.com/V-Squared/v2-Plan/issues/2) |
 
 --------------------------
