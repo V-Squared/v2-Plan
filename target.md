@@ -14,8 +14,8 @@ order: 1
 
 | Type  | Info |
 |------:|:-----|
-| Source | Classeur |
-| Readiness | Develop |
+| Source |  |
+| Readiness | Create |
 | On GitHub | [target.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/target.md) |
 | Issue | [ Write & Publish True North #16 ](https://github.com/V-Squared/v2-Plan/issues/16) | 
 
