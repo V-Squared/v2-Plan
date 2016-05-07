@@ -8,6 +8,16 @@ order: 2
 ---
 
 
+--------------------------
+# Status
+| Type  | Info |
+|------:|:-----|
+| Source | StackEdit►V²Plan Reference Manual |
+| Readiness | Develop |
+| On GitHub | [plan-reference.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/plan-reference.md) |
+
+--------------------------
+
 
 
 
