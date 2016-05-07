@@ -17,6 +17,7 @@ order: 7
 | Source | [ViDrive](https://docs.google.com/document/d/1KHvX7h8dCXUn17kpc5IGR4rL_YCMnZLJpOyFvtEAXz0/) → Classeur |
 | Readiness | Develop |
 | On GitHub | [agile-philosophy.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/agile-philosophy.md) |
+| Issue | [Write V²Agile Philosophy Article #17](https://github.com/V-Squared/v2-Plan/issues/17) |
 
 --------------------------
 
