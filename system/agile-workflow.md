@@ -15,6 +15,7 @@ order: 2
 | Source | [Classeur](https://app.classeur.io/#!/files/MgaU4KjEYbct3VPl3dwL) |
 | Readiness | Develop |
 | On GitHub | [agile-workflow.md](https://github.com/V-Squared/v2-Plan/edit/gh-pages/system/agile-workflow.md) |
+| Issue | [Agile Workflow User Manual #3](https://github.com/V-Squared/v2-Plan/issues/3) |
 
 --------------------------
 
