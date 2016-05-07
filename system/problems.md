@@ -16,7 +16,7 @@ order: 10
 |------:|:-----|
 | Source | Plan►Wiki►Problems |
 | Readiness | Create |
-| On GitHub | [system.md](https://github.com/V-Squared/v2-Plan/tree/gh-pages/system) |
+| On GitHub | [problems.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/problems.md) |
 
 --------------------------
 
