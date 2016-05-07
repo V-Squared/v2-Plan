@@ -15,7 +15,7 @@ order: 4
 |------:|:-----|
 | Source | Classeur |
 | Readiness | Develop |
-| On GitHub | [sprint-workflow.md](https://github.com/V-Squared/v2-Plan/new/gh-pages/system) |
+| On GitHub | [sprint-workflow.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/sprint-workflow.md) |
 
 --------------------------
 
