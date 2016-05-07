@@ -1,8 +1,26 @@
 ---
 layout: page
-title: V² Plan Home
+menu: Intro
+title: V² Plan Introduction
 description: How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
+breadcrumbs: Intro
+order: 1
 ---
+
+
+--------------------------
+
+# Status
+
+| Type  | Info |
+|------:|:-----|
+| Source | Classeur |
+| Readiness | Develop |
+| On GitHub | [system.md](https://github.com/V-Squared/v2-Plan/edit/gh-pages/system.md) |
+| Issue | [ Introduction to V²Plan #2](https://github.com/V-Squared/v2-Plan/issues/2) |
+
+--------------------------
+
 
 # Table of Contents
 - [Purpose](#purpose)
