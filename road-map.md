@@ -6,3 +6,17 @@ description: <strong>The V²Road Map</strong> shows the way to reach <strong>V²
 breadcrumbs: Road Map
 order: 2
 ---
+
+
+--------------------------
+
+# Status
+
+| Type  | Info |
+|------:|:-----|
+| Source | Plan►Wiki►Road Map (moved) |
+| Readiness | Develop |
+| On GitHub | [campaign01.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/roadMap/campaign01.md) |
+| Issue |  | 
+
+--------------------------
