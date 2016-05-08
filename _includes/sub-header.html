@@ -1,13 +1,11 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+
 <div class="uk-navbar uk-navbar-attached sub-navbar md-primary">
 	<div class="uk-container uk-container-center">
 		<ul class="uk-navbar-nav sub-navbar-nav">
-			{% assign pages = site.pages | sort:"order"  %}
-     	{% for my_page in pages %}
-     	  {% if my_page.title %}
-     	  {% if my_page.title != "V² Plan Home" %}
-     	  <li md-ink-ripple><a href="{{ my_page.url | prepend: site.baseurl }}" class="{% if page.url == my_page.url %}uk-active{% endif %} md-tab">{{ my_page.menu }}</a></li>
-     	  {% endif %}
-     	  {% endif %}
+		
+     	{% for my_page in include.nav %}
+     	  <li md-ink-ripple><a href=" {{site.baseurl}}{{ my_page.url }}" class="{% if page.url == my_page.url %}uk-active{% endif %} md-tab">{{ my_page.menu }}</a></li>
      	{% endfor %}
      </ul>
 	</div>

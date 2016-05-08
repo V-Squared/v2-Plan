@@ -105,25 +105,45 @@
 .sub-navbar {
   background:#2196F3;
   height:51px;
+  margin-left: -30px;
+  
 
   li  {
-    
-    border-bottom: 6px solid transparent;
+    position:relative;
 
     a {
 
-      color:#FFF;
+      color:rgba(255,255,255,.7);
       line-height: 51px;
       height:inherit;
+      text-transform: none;
+      
+    }
+    
+    &:hover > a {
+      background: #2196F3;
+      color:#FFF;
+    }
+    
+    &:after {
+      height: 4px;
+      width: 100%;
+      display: block;
+      content: " ";
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      transition: all .3s ease;
+      background: transparent;
+    }
 
-      &:hover {
-        background: #2196F3;
-        color:#FFF;
-      }
-
-      &.uk-active {
-        background: #2196F3;
-      }
+    &.uk-active:after, &:hover:after {
+      background: white;
+    }
+    
+    &.uk-active a{
+      background: #2196F3;
+      color:#FFF;
     }
   }
 }

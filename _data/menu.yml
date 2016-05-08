@@ -1,0 +1,15 @@
+- menu: Home
+  url: /
+- menu: Target
+  url: /target/
+- menu: Reference
+  url: /reference/
+- menu: Strategy
+  url: /strategy/
+- menu: System
+  url: /system/
+  subitems:
+    - menu: Agile Philosophy
+      url: /system/agile-philosophy
+    - menu: Agile Workflow
+      url: /system/agile-workflow
