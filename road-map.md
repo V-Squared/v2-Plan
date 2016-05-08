@@ -16,7 +16,18 @@ order: 2
 |------:|:-----|
 | Source | Plan►Wiki►Road Map (moved) |
 | Readiness | Develop |
-| On GitHub | [campaign01.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/roadMap/campaign01.md) |
-| Issue |  | 
+| On GitHub | [road-map.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/road-map.md) |
+| Issue | [ V² Road Map #8 ](https://github.com/V-Squared/v2-Plan/issues/8)  | 
 
 --------------------------
+
+
+# List of Campaigns
+- [Campaign 1: V²Site Launch](http://v-squared.github.io/v2-Plan/roadMap/campaign01/)
+- [Campaign 2: Community](http://v-squared.github.io/v2-Plan/roadMap/campaign02/)
+- [Campaign 3: Shop & Press](http://v-squared.github.io/v2-Plan/roadMap/campaign02/)
+- Campaign 4: V² OEM
+- Campaign 5: Computex
+- Campaign 6: V²C + ViDock Launch
+- From this moment on we have two campaigns in parallel: V²Case / V²Dock
+
