@@ -17,7 +17,7 @@ order: 3
 | Source | Plan►Wiki (moved) |
 | Readiness | Develop |
 | On GitHub | [campaign01.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/roadMap/campaign01.md) |
-| Issue |  | 
+| Issue | [V² Campaigns](https://github.com/V-Squared/v2-Plan/issues/9)  | 
 
 --------------------------
 
