@@ -1,0 +1,12 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+
+<ul class="article-nav uk-nav">
+
+  {% for my_page in include.nav %}
+    {% if my_page.subitems and navurl contains my_page.url %}
+      {% for subitem in my_page.subitems %}
+        <li class="{% if navurl == my_page.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}{{ subitem.url }}">{{ subitem.menu }}</a></li>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

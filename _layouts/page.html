@@ -3,9 +3,17 @@ layout: default
 ---
 
 <article class="post">
-
-  <div class="post-content">
-    {{ content }}
+  
+  <div layout="row"  layout-xs="column">
+    <div flex="15">
+      {% include article-nav.html nav=site.data.book-bar %}
+    </div>
+    <span flex="5"></span>
+    <div flex>
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
   </div>
 
 </article>
