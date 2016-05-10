@@ -5,7 +5,7 @@
 	<div class="uk-container uk-container-center">
 		<ul class="uk-navbar-nav sub-navbar-nav">
           
-        <li md-ink-ripple class="{% if navurl == baseurl %}uk-active{% endif %}"><a href=" {{site.baseurl}}/" class="md-tab">Intro</a></li>
+        <li md-ink-ripple class="{% if navurl == baseurl %}uk-active{% endif %}"><a href=" {{site.baseurl}}/" class="md-tab">Intro {{ navurl }}</a></li>
 		
      	{% for my_page in include.nav %}
      	  <li md-ink-ripple class="{% if navurl contains my_page.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}{{ my_page.url }}" class="md-tab">{{ my_page.menu }}</a></li>
