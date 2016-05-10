@@ -102,6 +102,8 @@
     padding: $spacing-unit;
     background:#242729;
     color:#767d84;
+    z-index: 999999;
+    position: relative;
     
     h1,h2,h3,h4,h5,h6 {
         color:#FFF;
@@ -390,4 +392,11 @@
 .content-body {
     padding-right: 30px;
     padding-left: 30px;
+}
+.article-title {
+  font-size: 50px;
+}
+.article-desc {
+  font-size: 18px;
+  color:#aaa;
 }

@@ -4,24 +4,26 @@
 {% if my_page.subitems and navurl contains my_page.url %}
 
 <div class="article-col">
-<md-toolbar>
-  <h2 class="md-toolbar-tools">{{ my_page.menu }}</h2>
-  <p class="md-toolbar-tools">{{ my_page.desc }}</p>
-</md-toolbar>
+  <div data-uk-sticky="{top:51}">
+    <md-toolbar>
+      <h2 class="md-toolbar-tools">{{ my_page.menu }}</h2>
+      <p class="md-toolbar-tools">{{ my_page.desc }}</p>
+    </md-toolbar>
 
-<ul class="article-nav uk-nav">
+    <ul class="article-nav uk-nav">
 
-  {% for my_page in include.nav %}
-    {% if my_page.subitems and navurl contains my_page.url %}
+      {% for my_page in include.nav %}
+      {% if my_page.subitems and navurl contains my_page.url %}
       <li class="{% if navurl == my_page.url %}uk-active{% endif %}">
         <a href="{{site.baseurl}}{{ my_page.url }}">Intro</a>
       </li>
       {% for subitem in my_page.subitems %}
-        <li class="{% if navurl == subitem.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}{{ subitem.url }}">{{ subitem.menu }}</a></li>
+      <li class="{% if navurl == subitem.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}{{ subitem.url }}">{{ subitem.menu }}</a></li>
       {% endfor %}
-    {% endif %}
-  {% endfor %}
-</ul>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 <span flex="5"></span>
 
