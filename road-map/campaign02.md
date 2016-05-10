@@ -26,6 +26,7 @@ order: 4
 
 |            Milestone |    Repository   | Description                                                                                                                                                                                                               |
 |---------------------:|:---------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| V²Speading Start | v2-Spreading | Launch of the Section that describes how to spread the word and products. The sub-site and all its pages / Articles are complete. |
 |    ViCase Mini 10pcs |  v2-Production  | Final design ViCase Mini. Including optimization for mass production.                                                                                                                                                     |
 |     ViCase Mini Ship |  v2-Production  | Resolve all issues needed to ship ViCase: Packaging, Shipping Cost, cost of selling one ViCase in the shop, etc ...                                                                                                       |
 |   ViCase Mini 100pcs |  v2-Production  | Mass Production of ViCase Mini                                                                                                                                                                                            |
