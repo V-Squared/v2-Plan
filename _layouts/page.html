@@ -5,10 +5,7 @@ layout: default
 <article class="post">
   
   <div layout="row"  layout-xs="column">
-    <div flex="15">
-      {% include article-nav.html nav=site.data.book-bar %}
-    </div>
-    <span flex="5"></span>
+    {% include article-nav.html nav=site.data.book-bar %}
     <div flex>
       <div class="post-content">
         {{ content }}

@@ -2,6 +2,8 @@
   url: /target/
 - menu: Road Map
   url: /road-map/
+  desc: >
+    How to reach True North via consecutive Campaigns.
   subitems:
     - menu: Strategy
       url: /road-map/strategy/
@@ -17,6 +19,8 @@
   url: /contributing/
 - menu: System
   url: /system/
+  desc: >
+    Generic Agile Development and Toyota Production System for Github Organizations.
   subitems:
     - menu: Agile Philosophy
       url: /system/agile-philosophy/
