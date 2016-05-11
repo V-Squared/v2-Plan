@@ -7,7 +7,7 @@ layout: default
   <div layout="row"  layout-xs="column">
     {% include article-nav.html nav=site.data.book-bar %}
     <div flex>
-      <div class="post-content">
+      <md-content class="post-content">
         <div layout="row" layout-xs="column" layout-align="space-between center">
           <h1 class="article-title">{{ page.title }}</h1>
           <ol class="uk-breadcrumb sub-breadcrumb">
@@ -42,8 +42,9 @@ layout: default
         
         {{ content }}
         
-      </div>
+      </md-content>
     </div>
+    {% include article-toc.html %}
   </div>
 
 </article>
