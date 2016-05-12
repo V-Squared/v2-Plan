@@ -1,8 +1,12 @@
+{% if page.contents %}
 <span flex="5"></span>
 <div id="article-toc">
 
   <ul class="uk-nav">
-  
+    {% for content in page.contents %}
+    <li><a href="#{{content.url}}">{{ content.name }}</a></li>
+    {% endfor %}
   </ul>
   
 </div>
+{% endif %}

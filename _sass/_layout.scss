@@ -190,6 +190,7 @@
  */
 .page-content {
     //padding-bottom: $spacing-unit;
+    padding-top: 70px;
 }
 
 .page-heading {
@@ -400,4 +401,7 @@
 .article-desc {
   font-size: 18px;
   color:#aaa;
+}
+md-content {
+  background: transparent;
 }
