@@ -5,34 +5,21 @@ title: V² Plan System
 description: V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
 breadcrumbs: System
 order: 4
+githubURL: https://github.com/V-Squared/v2-Plan/blob/gh-pages/system.md
 contents: 
   - name: Introduction
     url: intro
   - name: Eating our own Dog Foot
     url: dog-foot
+  - name: Methods
+    url: methods
+  - name: Cross Repo Management
+    url: cross-repo
+  - name: How it all fits together
+    url: fits
 ---
 
 
---------------------------
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Classeur |
-| Readiness | Develop |
-| On GitHub | [system.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system.md) |
-
---------------------------
-
-
-# Table of Contents
-
-- [Generic Introduction](#intro)
-- [Eating our own Dog Foot](#dog-foot)
-- [Methods](#methods)
-- [Cross Repo Management](#cross-repo)
-- [How it all fits together](#fits)
 
 
 # Generic Introduction <a name="intro"></a>
@@ -131,5 +118,27 @@ Directing and coordinating so many projects over such an extended time is no sma
 | [Problems of the Past][10] | List of Problems we experienced in the Past and how V² Plan is solving them. |
 
 [10]: http://v-squared.github.io/v2-Plan/system/problems/
+
+
+--------------------------
+
+(To be deleted later)
+
+# Status
+
+| Type  | Info |
+|------:|:-----|
+| Source | Classeur |
+| Readiness | Develop |
+| On GitHub | [system.md]() |
+
+
+# Table of Contents
+
+- [Generic Introduction](#intro)
+- [Eating our own Dog Foot](#dog-foot)
+- [Methods](#methods)
+- [Cross Repo Management](#cross-repo)
+- [How it all fits together](#fits)
 
 
