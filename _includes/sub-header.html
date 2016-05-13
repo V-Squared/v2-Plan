@@ -1,7 +1,8 @@
 {% assign navurl = page.url | remove: 'index.html' %}
 {% capture baseurl %}{{ site.baseurl }}/{% endcapture %}
 
-<div sticky class="uk-navbar uk-navbar-attached sub-navbar md-primary">
+<div style="height:51px;">
+<div sticky use-placeholder="false" class="uk-navbar uk-navbar-attached sub-navbar md-primary">
 	<div class="uk-container uk-container-center">
 		<ul class="uk-navbar-nav sub-navbar-nav">
           
@@ -12,4 +13,5 @@
      	{% endfor %}
      </ul>
 	</div>
+</div>
 </div>
