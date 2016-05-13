@@ -17,10 +17,8 @@ contents:
     url: cross-repo
   - name: How it all fits together
     url: fits
+img: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
 ---
-
-
-![](https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg)
 
 # Generic Introduction <a name="intro"></a>
 All description on using V²Plan System is in the [Introduction to V²Plan](/v2-Plan).
