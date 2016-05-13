@@ -20,7 +20,7 @@ contents:
 ---
 
 
-
+![](https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg)
 
 # Generic Introduction <a name="intro"></a>
 All description on using V²Plan System is in the [Introduction to V²Plan](/v2-Plan).
@@ -130,7 +130,7 @@ Directing and coordinating so many projects over such an extended time is no sma
 |------:|:-----|
 | Source | Classeur |
 | Readiness | Develop |
-| On GitHub | [system.md]() |
+| On GitHub | [system.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system.md) |
 
 
 # Table of Contents
