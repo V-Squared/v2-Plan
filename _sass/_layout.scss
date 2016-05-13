@@ -404,4 +404,44 @@
 }
 md-content {
   background: transparent;
+  
+  h1 {
+    color:#777;
+    font-family: Roboto-Thin;
+    padding-top: 51px;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+    color: #777;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    font-size: 21px !important;
+    color: #777;
+    padding-top: 14px;
+  }
+}
+.jumbotron.article-jumbotron {
+  padding:40px 50px 15px 50px;
+  background:#EEE;
+  
+  h1 {
+    padding-bottom: 30px;
+  }
+  
+  img {
+    border:1px solid #BBB;
+  }
+  
+  p {
+    padding-top: 10px;
+    font-size:15px;
+  }
+  
+  * {
+    color:#888;
+    font-family: Roboto-Thin;
+  }
 }

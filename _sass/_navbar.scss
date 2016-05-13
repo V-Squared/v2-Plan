@@ -179,7 +179,7 @@
 
     a {
       font-size:13px;
-      color:#444;
+      color:#888;
 
       &:hover {
         background:transparent;
@@ -191,7 +191,7 @@
 }
 
 .article-col {
-  border-right: 1px solid #E4E4E4;
+  border-right: 1px solid #BBB;
   width: 200px;
   
   md-toolbar {
@@ -209,6 +209,7 @@
   
   h2 {
     color:inherit;
+    font-family: Roboto-Thin;
   }
   
   p {
@@ -233,6 +234,7 @@
       a {
         background: #eee;
         color:black;
+        border-bottom: 1px solid #BBB;
       }
     }
   }
@@ -241,11 +243,20 @@
 #article-toc {
   width:200px;
   
+   md-toolbar {
+    background:transparent;
+    color:#777;
+  }
+  
+  h2 {
+    font-family: Roboto-Thin;
+    color:#777;
+  }
+  
   ul {
-    border-left: 2px solid #2196F3;
-    
     li > a {
       font-size:12px;
+      color:#666;
     }
   }
 }

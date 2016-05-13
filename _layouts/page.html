@@ -3,15 +3,31 @@ layout: default
 ---
 
 <article class="post">
-  
+
   <div layout="row"  layout-xs="column">
     {% include article-nav.html nav=site.data.book-bar %}
     <div flex>
-      <md-content class="post-content">
-        <div layout="row" layout-xs="column" layout-align="space-between center">
-          <h1 class="article-title">{{ page.title }}</h1>
+      <div class="jumbotron article-jumbotron">
+        <h1 class="article-title">{{ page.title }}</h1>
+
+        {% if page.img %}
+        <img src="{{ page.img }}" style="width:100%;">
+        {% endif %}
+
+        <p class="article-desc">{{ page.description }}</p>
+      </div>
+      <div layout="row">
+
+        {% for my_page in site.data.book-bar %}
+        {% if my_page.subitems and navurl contains my_page.url %}
+        <span style="width:50px;" hidden-sm></span>
+        {% endif %}
+        {% endfor %}
+
+        <md-content flex class="post-content">
           <ol class="uk-breadcrumb sub-breadcrumb">
-          <li><a href="{{ site.baseurl }}/">V²Plan</a></li>
+            <li><a href="/">V²</a></li>
+          <li><a href="{{ site.baseurl }}/">Plan</a></li>
           {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
           {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
           {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
@@ -32,17 +48,15 @@ layout: default
           {% endfor %}
           {% endfor %}
         </ol>
-        </div>
-        
-        {% if page.img %}
-          <img src="{{ page.img }}">
+          
+          {{ content }}
+        </md-content>
+
+        {% if page.contents %}
+        <span style="width:50px;" hidden-sm></span>
         {% endif %}
-        
-        <p class="article-desc">{{ page.description }}</p>
-        
-        {{ content }}
-        
-      </md-content>
+
+      </div>
     </div>
     {% include article-toc.html %}
   </div>

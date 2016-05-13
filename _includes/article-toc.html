@@ -1,18 +1,18 @@
 {% if page.contents %}
-<span flex="5"></span>
 <div id="article-toc">
   
-  <div sticky offset="51">
-  
-  <h3>Contents</h3>
+  <div data-uk-sticky="{top:51,boundary: true}" offset="51">
+    
+  <md-toolbar>
+      <h2 class="md-toolbar-tools">Contents</h2>
+  </md-toolbar>
 
   <ul class="uk-nav">
     {% for content in page.contents %}
-    <li du-scrollspy="{{content.url}}"><a href="#{{content.url}}" du-smooth-scroll offset="51">{{ content.name }}</a></li>
+    <li><a href="#{{content.url}}" du-smooth-scroll offset="51">{{ content.name }}</a></li>
     {% endfor %}
   </ul>
     
   </div>
-  
 </div>
 {% endif %}

@@ -4,7 +4,7 @@
 {% if my_page.subitems and navurl contains my_page.url %}
 
 <div class="article-col">
-  <div sticky offset="54" class="article-bar">
+  <div data-uk-sticky="{top:51,boundary: true}" offset="51" class="article-bar">
     <md-toolbar>
       <h2 class="md-toolbar-tools">{{ my_page.menu }}</h2>
       <p class="md-toolbar-tools">{{ my_page.desc }}</p>
@@ -24,8 +24,7 @@
       {% endfor %}
     </ul>
   </div>
-</div>
-<span flex="5"></span>
+    </div>
 
 {% endif %}
 {% endfor %}
