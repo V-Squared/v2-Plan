@@ -2,8 +2,7 @@
 layout: page
 menu: Sprint Workflow
 title: V² Sprint Workflow
-description: V² Workflow during a Sprint. Integration with GitHub Issues and Waffles
-order: 4
+subtitle: V² Workflow during a Sprint. Integration with GitHub Issues and Waffles
 ---
 
 

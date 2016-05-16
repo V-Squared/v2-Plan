@@ -219,14 +219,22 @@
 
 .article-nav {
   
+  height: 100vh;
+  overflow-y:auto;
+  
+  ul {
+    li a {
+      font-size: 13px;
+    }
+  }
 
   li {
     position: relative;
     
     a {
-      padding: 15px 15px;
+      padding: 3px 15px;
       color:#212121;
-      font-size: 13px;
+      font-size: 15px;
       color:#666;
     }
     
@@ -234,7 +242,6 @@
       a {
         background: #eee;
         color:black;
-        border-bottom: 1px solid #BBB;
       }
     }
   }

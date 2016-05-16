@@ -2,8 +2,7 @@
 layout: page
 menu: Agile Workflow
 title: V² Agile Workflow
-description: All Steps from Vision to Ideas through Sprint Development to Product involving Everyone
-order: 2
+subtitle: All Steps from Vision to Ideas through Sprint Development to Product involving Everyone
 ---
 
 --------------------------

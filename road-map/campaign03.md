@@ -2,9 +2,8 @@
 layout: page
 menu: Campaign 3
 title: Campaign 3
-description: Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC to prepare for Campaign 4
+subtitle: Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC to prepare for Campaign 4
 breadcrumbs: Campaign 3
-order: 3
 ---
 
 

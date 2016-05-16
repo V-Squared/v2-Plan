@@ -4,19 +4,21 @@ layout: default
 
 <article class="post">
 
-  <div layout="row"  layout-xs="column">
+  <div layout="row"  layout-xs="column" no-gap>
     {% include article-nav.html nav=site.data.book-bar %}
     <div flex>
       <div class="jumbotron article-jumbotron">
         <h1 class="article-title">{{ page.title }}</h1>
 
-        {% if page.img %}
-        <img src="{{ page.img }}" style="width:100%;">
+        {% if page.visualURL %}
+        <img src="{{ page.visualURL }}" style="width:100%;">
         {% endif %}
 
-        <p class="article-desc">{{ page.description }}</p>
+        <p class="article-desc">{{ page.subtitle }}</p>
+        
+        <p>{{ page.abstract }}</p>
       </div>
-      <div layout="row">
+      <div layout="row" no-gap>
 
         {% for my_page in site.data.book-bar %}
         {% if my_page.subitems and navurl contains my_page.url %}

@@ -204,3 +204,18 @@ pre {
         }
     }
 }
+
+[layout=column] > [flex]:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+[layout=row] > [flex]:not(:last-child) {
+  margin-right: 8px;
+}
+[layout=column][no-gap] > [flex]:not(:last-child) {
+  margin-bottom: 0;
+}
+
+[layout=row][no-gap] > [flex]:not(:last-child) {
+  margin-right: 0;
+}

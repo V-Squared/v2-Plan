@@ -2,9 +2,8 @@
 layout: page
 menu: Strategy
 title: Strategy of Road Map
-description: How to design Campaign Goals so that each consecutive Campaign moves V² closer to V² True North
+subtitle: How to design Campaign Goals so that each consecutive Campaign moves V² closer to V² True North
 breadcrumbs: Strategy
-order: 2
 ---
 
 

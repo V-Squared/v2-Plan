@@ -2,10 +2,9 @@
 layout: page
 menu: System
 title: V² Plan System
-description: V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
+subtitle: V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
 breadcrumbs: System
-order: 4
-githubURL: https://github.com/V-Squared/v2-Plan/blob/gh-pages/system.md
+visualURL: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
 contents: 
   - name: Introduction
     url: intro
@@ -17,7 +16,6 @@ contents:
     url: cross-repo
   - name: How it all fits together
     url: fits
-img: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
 ---
 
 # Generic Introduction <a name="intro"></a>

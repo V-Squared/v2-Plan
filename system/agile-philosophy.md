@@ -2,9 +2,8 @@
 layout: page
 menu: Agile Philosophy
 title: V² Agile Philosophy
-description: Agile Development and Toyota Production Philosophy consistently applied to Software, Hardware, Standards, Production Methods and Art.
+subtitle: Agile Development and Toyota Production Philosophy consistently applied to Software, Hardware, Standards, Production Methods and Art.
 breadcrumbs: Philosophy
-order: 7
 ---
 
 

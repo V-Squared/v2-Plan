@@ -2,9 +2,8 @@
 layout: page
 menu: Problems
 title: Problems of the Past
-description: List of Problems we experienced in the Past and how V² Plan is solving them.
+subtitle: List of Problems we experienced in the Past and how V² Plan is solving them.
 breadcrumbs: Problems
-order: 10
 ---
 
 

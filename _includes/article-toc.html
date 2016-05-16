@@ -1,18 +1,8 @@
-{% if page.contents %}
 <div id="article-toc">
   
   <div data-uk-sticky="{top:51,boundary: true,media: '(min-width: 640px)'}" offset="51">
     
-  <md-toolbar>
-      <h2 class="md-toolbar-tools">Contents</h2>
-  </md-toolbar>
-
-  <ul class="uk-nav">
-    {% for content in page.contents %}
-    <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a></li>
-    {% endfor %}
-  </ul>
+  <md-button class="md-raised" href="https://github.com/V-Squared/v2-Plan/edit/gh-pages/{{page.path}}" target="_blank">Edit This Article</md-button>
     
   </div>
 </div>
-{% endif %}

@@ -2,9 +2,8 @@
 layout: page
 menu: Campaign 2
 title: Campaign 2
-description: Begin shipping of ViCase and ViPC and increase awareness of V² Modular PC enough to launch Campaign 3
+subtitle: Begin shipping of ViCase and ViPC and increase awareness of V² Modular PC enough to launch Campaign 3
 breadcrumbs: Campaign 2
-order: 4
 ---
 
 

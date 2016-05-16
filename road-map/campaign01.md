@@ -2,9 +2,8 @@
 layout: page
 menu: Campaign 1
 title: Campaign 1
-description: Launch V²Site so it is completed enough to attract and coordinate Contributors
+subtitle: Launch V²Site so it is completed enough to attract and coordinate Contributors
 breadcrumbs: Campaign 1
-order: 3
 ---
 
 
