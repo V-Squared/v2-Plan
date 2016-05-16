@@ -4,27 +4,46 @@
 {% if my_page.subitems and navurl contains my_page.url %}
 
 <div class="article-col">
-  <div data-uk-sticky="{top:51,boundary: true}" offset="51" class="article-bar">
+  <div data-uk-sticky="{top:51,boundary: true,media: '(min-width: 640px)'  }" offset="51" class="article-bar">
     <md-toolbar>
-      <h2 class="md-toolbar-tools">{{ my_page.menu }}</h2>
+      <h2 class="md-toolbar-tools">{{ my_page.menu }} {{page.path}}</h2>
       <p class="md-toolbar-tools">{{ my_page.desc }}</p>
     </md-toolbar>
 
     <ul class="article-nav uk-nav">
 
-      {% for my_page in include.nav %}
-      {% if my_page.subitems and navurl contains my_page.url %}
       <li class="{% if navurl == my_page.url %}uk-active{% endif %}">
         <a href="{{site.baseurl}}{{ my_page.url }}">Intro</a>
       </li>
+      
+      {% if navurl == my_page.url and page.contents %}
+
+      <ul class="uk-nav">
+        {% for content in page.contents %}
+        <li><a href="#{{content.url}}" du-smooth-scroll>{{ content.name }}</a></li>
+        {% endfor %}
+      </ul>
+      
+      {% endif %}
+      
       {% for subitem in my_page.subitems %}
-      <li class="{% if navurl == subitem.url %}uk-active{% endif %}"><a href=" {{site.baseurl}}{{ subitem.url }}">{{ subitem.menu }}</a></li>
-      {% endfor %}
+      <li class="{% if navurl == subitem.url %}uk-active{% endif %}"><a href="{{site.baseurl}}{{ subitem.url }}">{{ subitem.menu }}</a></li>
+      
+      
+
+      {% if navurl == subitem.url and page.contents %}
+
+      <ul class="uk-nav">
+        {% for content in page.contents %}
+        <li><a href="#{{content.url}}" du-smooth-scroll offset="51">{{ content.name }}</a></li>
+        {% endfor %}
+      </ul>
+      
       {% endif %}
       {% endfor %}
     </ul>
   </div>
-    </div>
+</div>
 
 {% endif %}
 {% endfor %}
