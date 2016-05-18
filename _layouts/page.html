@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
 
-  <div layout="row"  layout-xs="column" no-gap>
+  <div layout="row"  layout-sm="column" no-gap>
     {% include article-nav.html nav=site.data.book-bar %}
     <div flex>
       <div class="jumbotron article-jumbotron">
@@ -14,14 +14,17 @@ layout: default
         <img src="{{ page.visualURL }}" style="width:100%;">
         {% endif %}
 
+        {% if page.subtitle %}
         <p class="article-desc">{{ page.subtitle }}</p>
-        
+        {% endif %}
+
         {% if page.abstract %}<p>{{ page.abstract }}</p>{% endif %}
-        
+
         <md-button class="md-fab edit-fab" aria-label="Edit this article"
-                   href="https://github.com/V-Squared/v2-Plan/edit/gh-pages/{{page.path}}" target="_blank">
-            <md-icon md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
-          </md-button>
+                   href="https://github.com/V-Squared/v2-Plan/edit/gh-pages/{{page.path}}"
+                   target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
+        </md-button>
       </div>
       <div layout="row" no-gap>
 
@@ -32,32 +35,32 @@ layout: default
         {% endfor %}
 
         <md-content flex class="post-content">
-          
-          
+
+
           <ol class="uk-breadcrumb sub-breadcrumb">
             <li><a href="/">V²</a></li>
-          <li><a href="{{ site.baseurl }}/">Plan</a></li>
-          {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-          {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-          {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-          {% for i in (1..forLoopMaxInt) %}
-          {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-          {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-          {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-          {% for breadcrumb_page in site.pages %}
+            <li><a href="{{ site.baseurl }}/">Plan</a></li>
+            {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+            {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
+            {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
+            {% for i in (1..forLoopMaxInt) %}
+            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+            {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+            {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+            {% for breadcrumb_page in site.pages %}
 
-          {% if current_breadcrumb_url == breadcrumb_page.url or
-          current_breadcrumb_md_url == breadcrumb_page.url %}
-          {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-          {% assign j = forLoopMaxInt | plus: 0 %}
-          <li {% if i == j %}class="active"{% endif %}>
-            <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumbs}}</a>
-          </li>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </ol>
-          
+            {% if current_breadcrumb_url == breadcrumb_page.url or
+            current_breadcrumb_md_url == breadcrumb_page.url %}
+            {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+            {% assign j = forLoopMaxInt | plus: 0 %}
+            <li {% if i == j %}class="active"{% endif %}>
+              <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumbs}}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          </ol>
+
           {{ content }}
         </md-content>
 

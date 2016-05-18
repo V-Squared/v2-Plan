@@ -1,10 +1,10 @@
 <div id="article-toc" hide-md hide-sm hide-xs>
+  
+  <div style="margin-top: 38px;"></div>
 
-  <div data-uk-sticky="{top:51,boundary: true,media: '(min-width: 640px)'}">
+  <div data-uk-sticky="{top:71,boundary: true,media: '(min-width: 640px)'}">
 
-    <md-toolbar md-transparent>
-      <h3 class="md-toolbar-tools">Article</h3>
-    </md-toolbar>
+    <h3 class="padding">Article</h3>
 
     <md-menu-content>
 
@@ -19,16 +19,10 @@
 
     </md-menu-content>
 
-    <md-toolbar md-transparent>
-      <h3 class="padding" style="margin-bottom:10px;">Repository</h3>
-      <h4 class="padding">{{site.repo}}</h4>
-    </md-toolbar>
-    
+    <h3 class="padding" style="margin-bottom:10px;">Repository</h3>
+    <h4 class="padding">{{site.repo}}</h4>
+
     <md-menu-content>
-      <md-menu-item>
-        <md-button aria-label="{{site.repo}}" href="https://github.com/V-Squared/{{site.repoUrl}}" target="_blank">
-          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/repo.svg"></md-icon> {{site.repo}}</md-button>
-      </md-menu-item>
 
       <md-menu-item>
         <md-button aria-label="{{site.repo}} Graphs" href="https://github.com/V-Squared/{{site.repoUrl}}/graphs" target="_blank">
@@ -44,6 +38,12 @@
         <md-button aria-label="{{site.repo}} Issues" href="https://github.com/V-Squared/{{site.repoUrl}}/issues" target="_blank">
           <md-icon md-svg-src="{{site.baseurl}}/icons/Github/issue.svg"></md-icon> Issues</md-button>
       </md-menu-item>
+
+      <md-menu-item>
+        <md-button aria-label="{{site.repo}}" href="https://github.com/V-Squared/{{site.repoUrl}}" target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/code.svg"></md-icon> Code</md-button>
+      </md-menu-item>
+
     </md-menu-content>
   </div>
 </div>
