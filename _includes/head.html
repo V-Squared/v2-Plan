@@ -21,11 +21,13 @@
   <script>
   angular.module('site', 
       ['ngSanitize','ngAnimate','duScroll','v2.tooltip','ngAria','ngMaterial']
-      , function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider) {
+      , function($interpolateProvider,tooltipSettingsProvider,$mdThemingProvider,$mdIconProvider) {
     //Change from {{}} to [[]] so it dosen't conflict with jekyll
 
     $interpolateProvider.startSymbol('[[');
     $interpolateProvider.endSymbol(']]');
+    
+    // Theme
     
     $mdThemingProvider.theme('default').primaryPalette('blue').accentPalette('orange');
   })
