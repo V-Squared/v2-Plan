@@ -1,8 +1,48 @@
-<div id="article-toc">
-  
-  <div data-uk-sticky="{top:51,boundary: true,media: '(min-width: 640px)'}" offset="51">
+<div id="article-toc" hide-md>
+
+  <div>
+
+    <md-toolbar md-transparent>
+      <h3 class="md-toolbar-tools">Article</h3>
+    </md-toolbar>
+
+    <md-menu-content>
+
+      <md-menu-item>
+        <md-button id="side-edit" aria-label="Edit Article" href="https://github.com/V-Squared/{{site.repoUrl}}/edit/gh-pages/{{page.path}}" target="_blank"><md-icon md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon> Edit Article</md-button>
+      </md-menu-item>
+
+      <md-menu-item>
+        <md-button aria-label="Article Issue" href="https://github.com/V-Squared/{{site.repoUrl}}/issues/{{page.issueNo}}" target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/issue.svg"></md-icon> Article Issue</md-button>
+      </md-menu-item>
+
+    </md-menu-content>
+
+    <md-toolbar md-transparent>
+      <h3 class="md-toolbar-tools">Repo</h3>
+    </md-toolbar>
     
-  <md-button class="md-raised" href="https://github.com/V-Squared/v2-Plan/edit/gh-pages/{{page.path}}" target="_blank">Edit This Article</md-button>
-    
+    <md-menu-content>
+      <md-menu-item>
+        <md-button aria-label="{{site.repo}}" href="https://github.com/V-Squared/{{site.repoUrl}}" target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/repo.svg"></md-icon> {{site.repo}}</md-button>
+      </md-menu-item>
+
+      <md-menu-item>
+        <md-button aria-label="{{site.repo}} Graphs" href="https://github.com/V-Squared/{{site.repoUrl}}/graphs" target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/graph.svg"></md-icon> Graphs</md-button>
+      </md-menu-item>
+
+      <md-menu-item>
+        <md-button aria-label="{{site.repo}} Pulse" href="https://github.com/V-Squared/{{site.repoUrl}}/pulse" target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/pulse.svg"></md-icon> pulse</md-button>
+      </md-menu-item>
+
+      <md-menu-item>
+        <md-button aria-label="{{site.repo}} Issues" href="https://github.com/V-Squared/{{site.repoUrl}}/issues" target="_blank">
+          <md-icon md-svg-src="{{site.baseurl}}/icons/Github/issue.svg"></md-icon> Issues</md-button>
+      </md-menu-item>
+    </md-menu-content>
   </div>
 </div>

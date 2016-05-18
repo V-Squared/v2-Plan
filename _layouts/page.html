@@ -16,17 +16,24 @@ layout: default
 
         <p class="article-desc">{{ page.subtitle }}</p>
         
-        <p>{{ page.abstract }}</p>
+        {% if page.abstract %}<p>{{ page.abstract }}</p>{% endif %}
+        
+        <md-button class="md-fab edit-fab" aria-label="Edit this article"
+                   href="https://github.com/V-Squared/v2-Plan/edit/gh-pages/{{page.path}}" target="_blank">
+            <md-icon md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
+          </md-button>
       </div>
       <div layout="row" no-gap>
 
         {% for my_page in site.data.book-bar %}
         {% if my_page.subitems and navurl contains my_page.url %}
-        <span style="width:50px;" hidden-sm></span>
+        <span style="width:50px;" hide-xs></span>
         {% endif %}
         {% endfor %}
 
         <md-content flex class="post-content">
+          
+          
           <ol class="uk-breadcrumb sub-breadcrumb">
             <li><a href="/">V²</a></li>
           <li><a href="{{ site.baseurl }}/">Plan</a></li>
@@ -55,7 +62,7 @@ layout: default
         </md-content>
 
         {% if page.contents %}
-        <span style="width:50px;" hidden-sm></span>
+        <span style="width:50px;" hide-md></span>
         {% endif %}
 
       </div>

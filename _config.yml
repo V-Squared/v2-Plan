@@ -18,5 +18,9 @@ include: ["_pages","_javascript","_data"]
 exclude: ["node_modules"]
 permalink: pretty
 
+# Github Settings
+repo: V²Plan
+repoUrl: v2-Plan
+
 # Build settings
 markdown: kramdown
