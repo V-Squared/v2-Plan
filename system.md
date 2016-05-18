@@ -3,6 +3,7 @@ layout: page
 menu: System
 title: V² Plan System
 subtitle: V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
+issueNo: 54
 breadcrumbs: System
 visualURL: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
 contents: 
