@@ -118,25 +118,4 @@ Directing and coordinating so many projects over such an extended time is no sma
 [10]: http://v-squared.github.io/v2-Plan/system/problems/
 
 
---------------------------
-
-(To be deleted later)
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Classeur |
-| Readiness | Develop |
-| On GitHub | [system.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system.md) |
-
-
-# Table of Contents
-
-- [Generic Introduction](#intro)
-- [Eating our own Dog Foot](#dog-foot)
-- [Methods](#methods)
-- [Cross Repo Management](#cross-repo)
-- [How it all fits together](#fits)
-
 
