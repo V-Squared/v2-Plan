@@ -122,13 +122,13 @@ angular.module('v2.tooltip',[])
         'ng-mouseover="onMouseover()" '+
         'ng-mouseleave="onMouseLeave()" ' +
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}"' +
-        'ng-class="placement">' +  
+        'ng-class="placement" style="z-index:10000">' +  
            content +
         '</div>'; 
       } else {
         template = '<div class="v2-tooltip" ' + 
         'ng-style="{\'top\': ttTop,\'left\': ttLeft}"' +
-        'ng-class="placement">' +
+        'ng-class="placement" style="z-index:10000">' +
            content +
         '</div>'; 
       }

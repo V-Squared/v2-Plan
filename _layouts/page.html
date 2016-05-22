@@ -8,15 +8,36 @@ layout: default
     {% include article-nav.html nav=site.data.book-bar %}
     <div flex>
       <div class="jumbotron article-jumbotron">
+        
+        <div layout="row" layout-align="end none">
+          <div class="progess-bar" style="width:300px;">
+          	<ol class="progress progress--small" style="font-size:.8em">
+          		<li data-step="1" v2-tooltip="Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." ng-class="repository.progress[0]" class="is-complete">
+          			Create
+          		</li>
+          		<li data-step="2" v2-tooltip="Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." ng-class="repository.progress[1]" class="is-complete">
+          			Develop
+          		</li>
+          		<li data-step="3" v2-tooltip="Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests. " ng-class="repository.progress[2]" class="is-active">
+          			Beta
+          		</li>
+          		<li data-step="4" v2-tooltip="Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." ng-class="repository.progress[3]" class="progress__last">
+          			Make
+          		</li>
+          	</ol>
+          </div>
+        </div>
+        
         <h1 class="article-title">{{ page.title }}</h1>
+        
+        {% if page.subtitle %}
+        <p class="article-desc">{{ page.subtitle }}</p>
+        {% endif %}
 
         {% if page.visualURL %}
         <img src="{{ page.visualURL }}" style="width:100%;">
         {% endif %}
 
-        {% if page.subtitle %}
-        <p class="article-desc">{{ page.subtitle }}</p>
-        {% endif %}
 
         {% if page.abstract %}<p>{{ page.abstract }}</p>{% endif %}
 
