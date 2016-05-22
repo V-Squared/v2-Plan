@@ -56,6 +56,7 @@ The *Sorting In* procedure in details:
    - **If Accept:** Update the *Status Information* with a  thank you note.
    - **If Reject:** Update the *Status Information* with an apology including the reason why we had to reject. Add an invitation if the *Issue Owner* knows a method to overcome our *Reason of Rejection* his very invited to let us know and we will have a second look.
 2. **Which Repository:** Compare the spirit of the list of *V² Repositories* and pick the one which comes closest.
+
    1. **High Priority:** Does the idea of this *Issue* solve a pressing *Issue*? Does it provide an idea on how to implement in a simple way an often requested *Feature*? Is it a *Low Hanging Fruit*? Are we working on a related *Issue* and squeezing this one in is easy now and hard later? If yes → then create a new Issue with same Title and content in a current Milestone and cross link with the original *Issue* in *v2-Input* Repository.
    2. **Medium Priority:** It is a good idea, but not *High Priority*. → Create a new Issue with same Title and content in the Milestone *Med Priority* in the corresponding *Repository* and cross link with the original *Issue* in *v2-Input* *Repository*.
    3. **Low Priority:** It is a good idea, but not relevant at this time. It has however a chance to become important at another time. → Create a new Issue with same Title and content in the Milestone *Low Priority* in the corresponding *Repository* and cross link with the original *Issue* in *v2-Input* *Repository*. [→ Top](#top)
