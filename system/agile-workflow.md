@@ -1,7 +1,6 @@
 ---
 layout: page
-menu: Agile Workflow
-title: V² Agile Workflow
+title: V²Agile Workflow on GitHub
 subtitle: All Steps from Vision to Ideas through Sprint Development to Product involving Everyone
 ---
 

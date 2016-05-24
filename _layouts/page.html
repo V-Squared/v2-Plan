@@ -65,22 +65,39 @@ layout: default
             {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
             {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
             {% for i in (1..forLoopMaxInt) %}
-            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-            {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-            {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-            {% for breadcrumb_page in site.pages %}
+              {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+              {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+              {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+            
+              {% for breadcrumb_page in site.data.book-bar %}
 
-            {% if current_breadcrumb_url == breadcrumb_page.url or
-            current_breadcrumb_md_url == breadcrumb_page.url %}
-            {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-            {% assign j = forLoopMaxInt | plus: 0 %}
+                {% if current_breadcrumb_url == breadcrumb_page.url or
+                current_breadcrumb_md_url == breadcrumb_page.url %}
+                  {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+                  {% assign j = forLoopMaxInt | plus: 0 %}
+            
             <li {% if i == j %}class="active"{% endif %}>
-              <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.breadcrumbs}}</a>
+              <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.menu}}</a>
             </li>
-            {% endif %}
-            {% endfor %}
+            
+                {% endif %}
+            
+                {% for breadcrumb_sub in breadcrumb_page.subitems %}
+            
+                  {% if current_breadcrumb_url == breadcrumb_sub.url or
+                  current_breadcrumb_md_url == breadcrumb_sub.url %}
+            <li {% if i == j %}class="active"{% endif %}>
+              <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_sub.menu}}</a>
+            </li>
+            
+                  {% endif %}
+            
+                {% endfor %}
+            
+              {% endfor %}
             {% endfor %}
           </ol>
+          
 
           {{ content }}
         </md-content>
