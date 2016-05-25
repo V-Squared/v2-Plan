@@ -24,6 +24,7 @@ issueNo: 69
 
 
 # Notes to sort in
+
 ## Target
 1. Great Function
 2. Great Design
