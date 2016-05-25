@@ -3,22 +3,10 @@ layout: page
 menu: Campaign 1
 title: Campaign 1
 subtitle: Launch V²Site so it is completed enough to attract and coordinate Contributors
-breadcrumbs: Campaign 1
+issueNo: 97
 ---
 
 
---------------------------
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Plan►Wiki (moved) |
-| Readiness | Develop |
-| On GitHub | [campaign01.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/roadMap/campaign01.md) |
-| Issue | [V² Campaigns](https://github.com/V-Squared/v2-Plan/issues/9)  | 
-
---------------------------
 
 
 ## Milestones in Campaign 01: V²Site Launch
