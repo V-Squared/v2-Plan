@@ -7,5 +7,5 @@ abstract: The target is expressed in <strong>V² True North</strong> which is a 
 issueNo: 100
 ---
 
-
+ 
 
