@@ -22,4 +22,12 @@ We integrated V²Plan into the V² web site. Editing an article or adding a comm
 
 
 # V²Plan System is the engine of V²Plan <a name="engine"></a>
-V²Plan System is a generic Agile Development and Toyota Production System  that we use to get the job done in V². Unique Features: **1)** Full GitHub Issues Integration. **2)** Cross Repo Management **3)** Visualization of Progress in Road Maps and Gantt Charts. **4)** Dashboard to show progress and filter view on work. V²Plan System can be easily adapted for other GitHub Organizations. For more information please see → [Introduction to V²Plan System](https://v-squared.github.io/v2-Plan/system/).
+V²Plan System is a generic Agile Development and Toyota Production System  that we use to get the job done in V². Key features:
+
+1. Full GitHub Issues Integration
+2. Cross Repo Management
+3. Visualization of Progress in Road Maps, Kanban Boards and Gantt Charts
+4. Dashboard to show progress and filtered view on current work in Sprint 
+5. Consistent documentation with interactive Info-graphics to ease learning
+
+V²Plan System can be easily adapted for other GitHub Organizations. For more information please see → [Introduction to V²Plan System](https://v-squared.github.io/v2-Plan/system/).
