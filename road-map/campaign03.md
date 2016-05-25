@@ -9,6 +9,7 @@ issueNo: 99
  
 
 ## Milestones in Campaign 03: Press & Shop
+
 |            Milestone |    Repository   | Description     |
 |---------------------:|:---------------:|-------------------------|
 | V²Shop Launch |  v2-Spreading | Publish all Know How Articles and Tutorials to make it very easy for others to either add ViCase or ViPC to their existing shop or to open their own online shop. |
