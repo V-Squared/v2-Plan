@@ -1,24 +1,12 @@
 ---
 layout: page
-menu: Campaign 3
 title: Campaign 3
 subtitle: Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC to prepare for Campaign 4
-breadcrumbs: Campaign 3
+issueNo: 99
 ---
 
 
---------------------------
 
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Plan►Wiki (moved) |
-| Readiness | Develop |
-| On GitHub | [campaign03.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/roadMap/campaign03.md) |
-| Issue |  | 
-
---------------------------
 
 ## Milestones in Campaign 03: Press & Shop
 |            Milestone |    Repository   | Description     |
