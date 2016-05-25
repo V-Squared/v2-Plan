@@ -417,10 +417,14 @@ md-content {
     padding-top: 20px;
   }
 
-  h2 {
+  h3 {
     font-size: 21px !important;
     color: #777;
     padding-top: 14px;
+  }
+  
+  ul>li>ul {
+    margin-left: 15px;
   }
 }
 .jumbotron.article-jumbotron {
