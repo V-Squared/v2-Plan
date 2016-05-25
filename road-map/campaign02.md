@@ -1,24 +1,11 @@
 ---
 layout: page
-menu: Campaign 2
 title: Campaign 2
 subtitle: Begin shipping of ViCase and ViPC and increase awareness of V² Modular PC enough to launch Campaign 3
-breadcrumbs: Campaign 2
+issueNo: 98
 ---
 
 
---------------------------
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Plan►Wiki (moved) |
-| Readiness | Develop |
-| On GitHub | [campaign02.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/roadMap/campaign02.md) |
-| Issue |  | 
-
---------------------------
 
 
 ## Milestones in Campaign 02: Community
