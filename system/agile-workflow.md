@@ -1,7 +1,9 @@
 ---
 layout: page
 title: V²Agile Workflow on GitHub
-subtitle: All Steps from Vision to Ideas through Sprint Development to Product involving Everyone
+subtitle: Getting Started 1&#58; All Steps from Vision to Ideas through Sprint Development to Product Release.
+abstract: Agile development requires the repeated precise execution of specific workflows. V²Plan tools are designed to guide and assist in executing these workflows. This Article first shows the Overview Agile Workflow from beginning to end. Then you can zoom into each step of the overview which is a complete workflow in on itself. Each workflow is documented with three methods&#58; <strong>1)</strong> User Stories, <strong>2)</strong> Step by Step Text Tutorial, <strong>3)</strong> Video Tutorial. Interactive Info-graphics assist in the learning process. Whereas the → Agile Development Primer focus on the principles of Agile Development, these workflows focus on their implementation in daily work.
+issueNo: 60
 ---
 
 --------------------------

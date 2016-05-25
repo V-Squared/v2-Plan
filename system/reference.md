@@ -1,9 +1,9 @@
 ---
 layout: page
-menu: Reference
-title: V² Plan System Reference
-subtitle: Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to V²Agile
-breadcrumbs: Reference
+title: V² Plan Reference
+subtitle: Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to Agile Development.
+abstract: The Reference Manual to V²Plan serves two purposes&#58; <strong>1)</strong> The theoretical look behind the scenes shows the Architecture of V²Plan with occasional goodies such as an explanation why we made particular choices. This background information will help you to better remember the V²Agile Workflows. <strong>2)</strong> A place to quickly look up information.
+issueNo: 75
 ---
 
 

@@ -1,7 +1,9 @@
 ---
 layout: page
-title: V² Agile Philosophy
-subtitle: Agile Development and Toyota Production Philosophy consistently applied to Software, Hardware, Standards, Production Methods and Art.
+title: Agile Development Primer
+subtitle: How Incremental and Rapid Develop works and its benefits.
+abstract: Complete Introduction Article on how Agile Development works and what are the benefits versus the Traditional Waterfall Development. The key idea and key benefit is to produce a Shippable Product Increment aka Iteration in a very short time, such as one week. This makes for a very fast Return of Investment as well as very fast Customer Feedback. We excluded any V²Plan specific information so that those already knowledgeable on Agile Development can safely skip this Article.
+issueNo: 68
 ---
 
 

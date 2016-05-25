@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Introduction to V²Plan System
-subtitle: V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
-abstract: V²Plan is for Organizations that have their Repositories on GitHub and who are looking for a better way to manage their Development and Production. V²Plan is an Open Source Zero Cost Solution. It utilizes the capabilities of GitHub Issues to its full extent and then adds the missing tools, such as Cross Repository Management, SCRUM Boards, Gantt Charts and True North.
-issueNo: 54
-breadcrumbs: System
+subtitle: Linked Listing of all Articles with Titles, Info-graphics and Abstracts.
+abstract: After reading this Article you have a complete overview to V²Plan and you will know what each Article is about so that you can focus your further reading on the topics you are interested in. The content will change with progress of development of V²Plan. In the beginning we focus more on guiding development whereas with ongoing completion focus will shift to user documentation. As with all V² projects the progress bar shows you how usable each article or feature is at this time. We started using V²Plan to manage ourselves right from the get go. In the best spirit of <a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">Eating your own dog food.</a>
+issueNo: 59
 visualURL: https://cloud.githubusercontent.com/assets/7278716/14466638/3a39ff76-010a-11e6-803d-2822584a79b3.jpg
 contents: 
   - name: Introduction

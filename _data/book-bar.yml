@@ -22,13 +22,31 @@
   desc: >
     Generic Agile Development and Toyota Production System for Github Organizations.
   subitems:
-    - menu: Agile Philosophy
-      url: /system/agile-philosophy/
-    - menu: Agile Workflow
+    - menu: V²Agile Workflow
       url: /system/agile-workflow/
-    - menu: Reference
-      url: /system/plan-reference/
-    - menu: Problems
-      url: /system/problems/
-    - menu: Sprint Workflow
+    - menu: V²Sprint Workflow
       url: /system/sprint-workflow/
+    - menu: Roles & Communication
+      url: /system/roles/
+    - menu: Iterations & Testing
+      url: /system/iterations/
+    - menu: Solving Problems
+      url: /system/solving-problems/
+    - menu: Features of V²Plan
+      url: /system/features/
+    - menu: Agile Primer
+      url: /system/agile-primer/
+    - menu: Motivation by Design
+      url: /system/motivation/
+    - menu: Multi Repo Management
+      url: /system/multi-repo/
+    - menu: Adding SCRUM
+      url: /system/adding-scrum/
+    - menu: Adding Dashboard
+      url: /system/dashboard/
+    - menu: V² Plan Reference
+      url: /system/reference/
+    - menu: Developing V²Plan
+      url: /system/developing/
+    - menu: Adapting V²Plan
+      url: /system/adapting/

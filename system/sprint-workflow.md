@@ -1,22 +1,10 @@
 ---
 layout: page
-menu: Sprint Workflow
-title: V² Sprint Workflow
-subtitle: V² Workflow during a Sprint. Integration with GitHub Issues and Waffles
+title: 	V²Sprint Workflow on GitHub
+subtitle: Getting Started 2&#58; Workflow during a Sprint. Integration with GitHub Issues and Waffles.
+abstract: The Sprint Workflow is at the core of the Agile Workflow as such we give it this dedicated Article. This Article works just the same as the previous&#58; It first shows the Overview Sprint Workflow from beginning to end. Then you can zoom into each step of the overview which is a complete workflow in on itself. Each workflow is documented with three methods&#58; <strong>1)</strong> User Stories, <strong>2)</strong> Step by Step Text Tutorial, <strong>3)</strong> Video Tutorial. Interactive Info-graphics assist in the learning process.
+issueNo: 61
 ---
-
-
---------------------------
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Classeur |
-| Readiness | Develop |
-| On GitHub | [sprint-workflow.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/sprint-workflow.md) |
-
---------------------------
 
 # Introduction
 

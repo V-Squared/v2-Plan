@@ -1,9 +1,9 @@
 ---
 layout: page
-menu: Problems
-title: Problems of the Past
-subtitle: List of Problems we experienced in the Past and how V² Plan is solving them.
-breadcrumbs: Problems
+title: Solving today's Problems
+subtitle: How V² Plan solves the Problems of managing Agile Development and Production on GitHub.
+abstract: V²Plan is for Organizations that have their Repositories on GitHub and who are looking for a better way to manage their Development and Production. V²Plan is an Open Source Zero Cost Solution. It utilizes the capabilities of GitHub Issues to its full extent and then adds the missing tools, such as Cross Repository Management, SCRUM Boards, Gantt Charts and True North.
+issueNo: 64
 ---
 
 
