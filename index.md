@@ -65,7 +65,7 @@ V²Plan is our vision, guide and methodology to mange all our projects from begi
 
 
 # V²Plan System is the engine of V²Plan <a name="engine"></a>
-V² is a *Standard Organization* with over 20 contributors and over 100 projects [^1] managed across a decade. We think highly of GitHub Issues and use it to its full extend to manage our projects. But we simply needed more. V²Plan System begins where GitHub Issues ends: It adds visual tools for Targets, Directions and Dashboards. It also adds documentation on our workflow for Agile Development and Toyota Production System and tutorials on how get the job done. For more information please see → [Introduction to V²Plan System](http://v-squared.github.io/v2-Plan/system/)
+V² is a *Standard Organization* with over 20 contributors and over 100 projects [^1] managed across a decade. We think highly of GitHub Issues and use it to its full extend to manage our projects. But we simply needed more. V²Plan System begins where GitHub Issues ends: It adds visual tools for Targets, Directions and Dashboards. It also adds documentation on our workflow for Agile Development and Toyota Production System and tutorials on how get the job done. For more information please see → [Introduction to V²Plan System](https://v-squared.github.io/v2-Plan/system/)
 
 
 [^1]: Not all projects are yet transferred to GitHub and not all contributors are already using GitHub.
