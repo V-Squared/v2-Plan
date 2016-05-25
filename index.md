@@ -4,16 +4,17 @@ title: V² Plan Introduction
 subtitle: How V² will improve your life, how we make it happen and how you can help.
 abstract: V²Plan serves to user groups. The first group are Users and Contributors of V². The second group are GitHub users who are looking for an Agile Project Management and Toyota Production System to add to their GitHub Organization.
 issueNo: 93
+contents
+  - name: Purpose
+    url: purpose
+  - name: Elements
+    url: elements
+  - name: Motivation
+    url: motivation
+  - name: V²Plan System is the engine of V²Plan
+    url: engine
 ---
 
-
-
-
-# Table of Contents
-- [Purpose](#purpose)
-- [Elements](#elements) 
-- [Motivation](#motivation)
-- [V²Plan System is the engine of V²Plan](#engine)
 
 
 # Purpose <a name="purpose"></a>
