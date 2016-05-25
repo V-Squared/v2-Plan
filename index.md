@@ -1,25 +1,12 @@
 ---
 layout: page
-menu: Intro
 title: V² Plan Introduction
-description: How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
-breadcrumbs: Intro
-order: 1
+subtitle: How V² will improve your life, how we make it happen and how you can help.
+abstract: V²Plan serves to user groups. The first group are Users and Contributors of V². The second group are GitHub users who are looking for an Agile Project Management and Toyota Production System to add to their GitHub Organization.
+issueNo: 93
 ---
 
 
---------------------------
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | Classeur |
-| Readiness | Develop |
-| On GitHub | [index.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/index.md) |
-| Issue | [ Introduction to V²Plan #2](https://github.com/V-Squared/v2-Plan/issues/2) |
-
---------------------------
 
 
 # Table of Contents
