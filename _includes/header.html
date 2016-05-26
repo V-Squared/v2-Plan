@@ -100,7 +100,7 @@
         
         <ul class="uk-nav-sub">.
           
-          <li class="{% if navurl == my_page.url %}uk-active{% endif %}"><a href="{{my_page.url}}">Intro</a></li>
+          <li class="{% if navurl == my_page.url %}uk-active{% endif %}"><a href="{{site.baseurl}}{{my_page.url}}">Intro</a></li>
         
           {% for subitem in my_page.subitems %}
           <li class="{% if navurl contains subitem.url %}uk-active{% endif %}"><a href="{{site.baseurl}}{{subitem.url}}">{{subitem.menu}}</a></li>        
