@@ -95,7 +95,7 @@
       {% for my_page in site.data.book-bar %}
       
       <li class="{% if my_page.subitems %}uk-parent{% endif %} {% if navurl contains my_page.url %}uk-active{% endif %}">
-        <a href="{% if my_page.subitems %}#{% else %}{{my_page.url}}{% endif %}">{{my_page.menu}}</a>
+        <a href="{% if my_page.subitems %}#{% else %}{{site.baseurl}}{{my_page.url}}{% endif %}">{{my_page.menu}}</a>
         {% if my_page.subitems %}
         
         <ul class="uk-nav-sub">.
