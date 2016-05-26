@@ -245,3 +245,11 @@ md-menu-divider {
     fill:#747474;
   }
 }
+
+md-sidenav {
+  z-index:1000;
+}
+
+md-backdrop.md-sidenav-backdrop {
+  z-index:999;
+}
