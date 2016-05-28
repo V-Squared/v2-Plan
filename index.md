@@ -18,7 +18,7 @@ issueNo: 91
 
 
 # Simple and Fast <a name="simple"></a>
-We integrated V²Plan into the V² web site. Editing an article or adding a comment to its issue is done with just one mouse click. This makes contribution to V² as easy as [wikipedia](https://www.wikipedia.org/).
+We integrated V²Plan into the V² web site. Editing an article or adding a comment to its issue is done with just one mouse click on the Edit Floating Action Button. The power of community editing has been proven by  [wikipedia](https://www.wikipedia.org/).
 
 
 # V²Plan System is the engine of V²Plan <a name="engine"></a>
