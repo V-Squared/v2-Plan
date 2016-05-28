@@ -11,7 +11,7 @@ contents:
      url: no-management
    - name: Hard to Find Next Work
      url: hard-find-work
-   - name: Tedious Spring Management
+   - name: Tedious to Sprint Management
      url: tedious-sprint
    - name: No Clear Targets
      url: no-targets
@@ -25,7 +25,7 @@ contents:
 
 
 
-# Frustration of Making no or too slow Progress <a name="frustration"></a>
+# Frustration of Too Slow Progress <a name="frustration"></a>
 
 ## How the Problem Showed
 
@@ -48,7 +48,7 @@ contents:
 
 
 
-# Sprint was Tedious to Manage and not Transparent <a name="tedious-sprint"></a>
+# Tedious to Sprint Management<a name="tedious-sprint"></a>
 
 ## How the Problem Showed
 
@@ -72,7 +72,7 @@ contents:
 
 
 
-# No Ticket System for Bug Reports and Ideas <a name="no-ticket-system"></a>
+# No Ticket System for Bugs and Ideas <a name="no-ticket-system"></a>
 
 ## How the Problem Showed
 
