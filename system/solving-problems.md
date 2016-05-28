@@ -13,7 +13,7 @@ contents:
      url: no-management
    - name: Hard to Find Next Work
      url: hard-find-work
-   - name: Tedious to Sprint Management
+   - name: Tedious Sprint Management
      url: tedious-sprint
    - name: No Clear Targets
      url: no-targets
@@ -57,7 +57,7 @@ contents:
 
 
 
-# Tedious to Sprint Management<a name="tedious-sprint"></a>
+# Tedious Sprint Management<a name="tedious-sprint"></a>
 
 ## How the Problem Showed
 
