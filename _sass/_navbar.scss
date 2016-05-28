@@ -221,7 +221,10 @@
 
 .article-nav {
 
-  max-height: 100vh;
+  // consider the sticky navbar and margin-top
+  max-height: calc(100vh - 89px);
+  max-height: -webkit-calc(100vh - 89px);
+  max-height: -moz-calc(100vh - 89px);
   overflow-y:auto;
 
   ul {
