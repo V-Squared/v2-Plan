@@ -7,6 +7,8 @@ issueNo: 64
 contents:
    - name: Frustration of Slow Progress
      url: frustration
+   - name: Slow Use of Contribution
+     url: slow-implementation
    - name: No Clear Management
      url: no-management
    - name: Hard to Find Next Work
@@ -26,6 +28,13 @@ contents:
 
 
 # Frustration of Too Slow Progress <a name="frustration"></a>
+
+## How the Problem Showed
+
+## Fix with V²PLan
+
+
+# Slow Implementation of Contribution <a name="slow-implementation"></a>
 
 ## How the Problem Showed
 
@@ -85,4 +94,6 @@ contents:
 ## How the Problem Showed
 
 ## Fix with V²PLan
+
+
 
