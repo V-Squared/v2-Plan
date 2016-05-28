@@ -1,54 +1,88 @@
 ---
 layout: page
 title: Solving today's Problems
-subtitle: How V² Plan solves the Problems of managing Agile Development and Production on GitHub.
-abstract: V²Plan is for Organizations that have their Repositories on GitHub and who are looking for a better way to manage their Development and Production. V²Plan is an Open Source Zero Cost Solution. It utilizes the capabilities of GitHub Issues to its full extent and then adds the missing tools, such as Cross Repository Management, SCRUM Boards, Gantt Charts and True North.
+subtitle: How V² Plan solved our Problems of managing Agile Development and Production on GitHub.
+abstract: We are developing V²Plan because we had big problems in the past with managing our development. We heard complaints about lack of management, lack of transparency, frustration of too slow development speed. This document compiles all complaints and describes how V²Plan will fix these problems. This is an open process in which you can participate by adding a comment to the issue of this article or by editing this article which creates a pull request. If you are evaluating V²Plan you can compare if you experience similar problems as we do. If so, chances are V²Plan is your solution too.
 issueNo: 64
+contents:
+   - name: Frustration of Slow Progress
+     url: frustration
+   - name: No Clear Management
+     url: no-management
+   - name: Hard to Find Next Work
+     url: hard-find-work
+   - name: Tedious Spring Management
+     url: tedious-sprint
+   - name: No Clear Targets
+     url: no-targets
+   - name: No Road Map Published
+     url: no-road-map
+   - name: No Ticket System
+     url: no-ticket-system
+   - name: No Development Transparency
+     url: no-transparency
 ---
 
 
---------------------------
 
-# Status
+# Frustration of Making no or too slow Progress <a name="frustration"></a>
 
-| Type  | Info |
-|------:|:-----|
-| Source | Plan►Wiki►Problems |
-| Readiness | Create |
-| On GitHub | [problems.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/problems.md) |
+## How the Problem Showed
 
---------------------------
+## Fix with V²PLan
 
 
-# Problems of the past
-## No clean cut between Campaign and Project Manager
+# No Clear Management Structure <a name="no-management"></a>
+
+## How the Problem Showed
+
+## Fix with V²PLan
 
 
-## Project Manager has no simple overview
 
-## No Gantt Chart for Campaign
+# Hard to Find Best Work for Next Sprint <a name="hard-find-work"></a>
 
-## No Burn Down Chart for Milestones
+## How the Problem Showed
 
-## No SCRUM Board for Milestones
-
-## One Milestone is spread across Repositories
+## Fix with V²PLan
 
 
-# Solutions
-## Clean and limited Job description of Campaign Manager
 
-## Project Manager continues where Campaign Manager ends
+# Sprint was Tedious to Manage and not Transparent <a name="tedious-sprint"></a>
 
-## Each Milestone is unique to one Repository
+## How the Problem Showed
 
-## Project Manager track schedule of Project, reports to Campaign Manager
-
-## SCRUM Board with Waffle is very efficient
-- yet Waffle is optional!
+## Fix with V²PLan
 
 
-# Reference
-- [Issue►Understanding Problems of Planning V² Initiative](https://github.com/V-Squared/v2-Plan/issues/1)
 
+# No Clear Targets Published <a name="no-targets"></a>
+
+## How the Problem Showed
+
+## Fix with V²PLan
+
+
+
+# No Road Map Published <a name="no-road-map"></a>
+
+## How the Problem Showed
+
+## Fix with V²PLan
+
+
+
+# No Ticket System for Bug Reports and Ideas <a name="no-ticket-system"></a>
+
+## How the Problem Showed
+
+## Fix with V²PLan
+
+
+
+# No Transparency of Development <a name="no-transparency"></a>
+
+## How the Problem Showed
+
+## Fix with V²PLan
 
