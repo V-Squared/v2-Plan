@@ -10,7 +10,7 @@
     <h3 class="padding">{{ my_page.menu }}</h3>
     <p class="padding">{{ my_page.desc }}</p>
 
-    <ul data-uk-sticky="{top:71,media: '(min-width: 640px)'  }" class="article-nav uk-nav">
+    <ul data-uk-sticky="{top:71,media: '(min-width: 640px)'  }" style="z-index:10" class="article-nav uk-nav">
 
       <li class="{% if navurl == my_page.url %}uk-active{% endif %}">
         <a href="{{site.baseurl}}{{ my_page.url }}">Intro</a>
@@ -33,7 +33,7 @@
 
       {% if navurl == subitem.url and page.contents %}
 
-      <ul class="uk-nav">
+      <ul class="uk-nav uk-nav-toc">
         {% for content in page.contents %}
         <li><a href="#{{content.url}}" du-smooth-scroll offset="51">{{ content.name }}</a></li>
         {% endfor %}

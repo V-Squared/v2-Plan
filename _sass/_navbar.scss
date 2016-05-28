@@ -111,21 +111,21 @@
   &.uk-active {
     margin-left: 0;
   }
-  
+
   h3 {
     color:#FFF;
     margin:0;
   }
-  
+
   .uk-navbar-toggle:after {
     content:"";
   }
-  
+
   > div > div {
     height: 51px;
     margin-left:-17px;
   }
-  
+
   md-icon svg {
     fill: #FFF;
   }
@@ -217,10 +217,6 @@
     color: #999;
     font-size:12px;
   }
-
-  * {
-    font-family: Roboto-Thin;
-  }
 }
 
 .article-nav {
@@ -283,4 +279,24 @@
 
 .uk-nav-offcanvas li  ul li.uk-active a {
   color:#FFF;
+}
+.navbar-toggle-header {
+  line-height:60px;
+  color:#FFF;
+  margin:0;
+
+  @media (min-width:768px) {
+    display: none;
+  }
+}
+.uk-nav-toc li a {
+  border-left: 2px solid #2196F3;
+  font-size: 13px;
+  color: #666;
+  padding: 3px 15px;
+
+  &:hover {
+    background: transparent;
+    font-weight: bold;
+  }
 }

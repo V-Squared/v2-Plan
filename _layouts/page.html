@@ -6,30 +6,30 @@ layout: default
 
   <div layout="row"  layout-sm="column" no-gap>
     {% include article-nav.html nav=site.data.book-bar %}
-    <div flex>
-      <div class="jumbotron article-jumbotron">
-        
+    <div flex class="article md-whiteframe-5dp">
+      <div class="jumbotron article-jumbotron" style="padding:20px;">
+
         <div layout="row" layout-align="end none">
           <div class="progess-bar" style="width:300px;">
-          	<ol class="progress progress--small" style="font-size:.8em">
-          		<li data-step="1" v2-tooltip="Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." ng-class="repository.progress[0]" class="is-complete">
-          			Create
-          		</li>
-          		<li data-step="2" v2-tooltip="Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." ng-class="repository.progress[1]" class="is-complete">
-          			Develop
-          		</li>
-          		<li data-step="3" v2-tooltip="Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests. " ng-class="repository.progress[2]" class="is-active">
-          			Beta
-          		</li>
-          		<li data-step="4" v2-tooltip="Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." ng-class="repository.progress[3]" class="progress__last">
-          			Make
-          		</li>
-          	</ol>
+            <ol class="progress progress--small" style="font-size:.8em">
+              <li data-step="1" v2-tooltip="Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." ng-class="repository.progress[0]" class="is-complete">
+                Create
+              </li>
+              <li data-step="2" v2-tooltip="Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." ng-class="repository.progress[1]" class="is-complete">
+                Develop
+              </li>
+              <li data-step="3" v2-tooltip="Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests. " ng-class="repository.progress[2]" class="is-active">
+                Beta
+              </li>
+              <li data-step="4" v2-tooltip="Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." ng-class="repository.progress[3]" class="progress__last">
+                Make
+              </li>
+            </ol>
           </div>
         </div>
-        
+
         <h1 class="article-title">{{ page.title }}</h1>
-        
+
         {% if page.subtitle %}
         <p class="article-desc">{{ page.subtitle }}</p>
         {% endif %}
@@ -49,13 +49,9 @@ layout: default
       </div>
       <div layout="row" no-gap>
 
-        {% for my_page in site.data.book-bar %}
-        {% if my_page.subitems and navurl contains my_page.url %}
-        <span style="width:50px;" hide-xs></span>
-        {% endif %}
-        {% endfor %}
+        <!--Article-->
 
-        <md-content flex class="post-content">
+        <md-content flex class="post-content" style="padding:20px;">
 
 
           <ol class="uk-breadcrumb sub-breadcrumb">
@@ -65,50 +61,57 @@ layout: default
             {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
             {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
             {% for i in (1..forLoopMaxInt) %}
-              {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-              {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-              {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-            
-              {% for breadcrumb_page in site.data.book-bar %}
+            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+            {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+            {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
 
-                {% if current_breadcrumb_url == breadcrumb_page.url or
-                current_breadcrumb_md_url == breadcrumb_page.url %}
-                  {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-                  {% assign j = forLoopMaxInt | plus: 0 %}
-            
+            {% for breadcrumb_page in site.data.book-bar %}
+
+            {% if current_breadcrumb_url == breadcrumb_page.url or
+            current_breadcrumb_md_url == breadcrumb_page.url %}
+            {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+            {% assign j = forLoopMaxInt | plus: 0 %}
+
             <li {% if i == j %}class="active"{% endif %}>
               <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_page.menu}}</a>
             </li>
-            
-                {% endif %}
-            
-                {% for breadcrumb_sub in breadcrumb_page.subitems %}
-            
-                  {% if current_breadcrumb_url == breadcrumb_sub.url or
-                  current_breadcrumb_md_url == breadcrumb_sub.url %}
+
+            {% endif %}
+
+            {% for breadcrumb_sub in breadcrumb_page.subitems %}
+
+            {% if current_breadcrumb_url == breadcrumb_sub.url or
+            current_breadcrumb_md_url == breadcrumb_sub.url %}
             <li {% if i == j %}class="active"{% endif %}>
               <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_sub.menu}}</a>
             </li>
-            
-                  {% endif %}
-            
-                {% endfor %}
-            
-              {% endfor %}
+
+            {% endif %}
+
+            {% endfor %}
+
+            {% endfor %}
             {% endfor %}
           </ol>
+
+          {% if page.contents %}
           
+          <h1 hide-gt-sm>Table of Contents</h1>
+
+          <ul class="uk-nav uk-nav-toc" hide-gt-sm>
+            {% for content in page.contents %}
+            <li><a href="#{{content.url}}" du-smooth-scroll offset="51">{{ content.name }}</a></li>
+            {% endfor %}
+          </ul>
+
+          {% endif %}
+
 
           {{ content }}
         </md-content>
 
-        {% if page.contents %}
-        <span style="width:50px;" hide-md></span>
-        {% endif %}
-
       </div>
     </div>
-    {% include article-toc.html %}
   </div>
 
 </article>

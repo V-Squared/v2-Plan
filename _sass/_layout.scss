@@ -275,7 +275,7 @@
 
     p {
       margin:0;
-      font-size:13px;
+      font-size:15px;
     }
 
     .jumbotron-title {
@@ -418,13 +418,13 @@ md-content {
     color: #777;
     padding-top: 14px;
   }
-  
+
   ul>li>ul {
     margin-left: 15px;
   }
 }
 .jumbotron.article-jumbotron {
-  padding:40px 50px 15px 50px;
+  //padding:40px 50px 15px 50px;
   background:#b3e5fc;
   position: relative;
 
@@ -453,4 +453,19 @@ md-content {
 }
 md-menu-content {
   background: transparent;
+}
+.article {
+  background:#FFF;
+  z-index:99;
+}
+ul.uk-nav-sub {
+  padding-left:30px;
+}
+
+html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
+  background: #404040;
+}
+.uk-nav-offcanvas>li>a {
+  border-top: 1px solid rgba(0,0,0,.3);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
 }

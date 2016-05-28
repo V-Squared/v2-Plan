@@ -45,8 +45,11 @@
           <a href="#" v2-tooltip="About the people, process and legal stuff creating the V² Open Standards" class="{% if page.url == '/misc' %}uk-active{% endif %}">Organization</a>
         </li>
       </ul>
-
-      <a style="padding-top:17px;" href="#moble-site-nav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+      
+      <div layout="row">
+        <h3 class="navbar-toggle-header">Boards</h3>
+      <a style="padding-top:17px;color:#FFF;" href="#moble-site-nav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+      </div>
     </div>
     <!--</nav>-->
 
@@ -98,7 +101,7 @@
         <a href="{% if my_page.subitems %}#{% else %}{{site.baseurl}}{{my_page.url}}{% endif %}">{{my_page.menu}}</a>
         {% if my_page.subitems %}
         
-        <ul class="uk-nav-sub">.
+        <ul class="uk-nav-sub">
           
           <li class="{% if navurl == my_page.url %}uk-active{% endif %}"><a href="{{site.baseurl}}{{my_page.url}}">Intro</a></li>
         
