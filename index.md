@@ -19,7 +19,6 @@ readiness:
 - Organize our development → [Dashboard](https://v-squared.github.io/v2-Plan/dashboard/)
 - Make it easy to contribute → [Contributing](https://v-squared.github.io/v2-Plan/contributing/)
 - Explain how V²Plan System works → [System](https://v-squared.github.io/v2-Plan/system/)
-   - For V² Users and Contributors, but also for any GitHub Organization in search for an Agile Development & Production System
 
 
 # Simple and Fast <a name="simple"></a>
