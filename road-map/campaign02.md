@@ -9,7 +9,7 @@ readiness:
    - is-active
 ---
 
-# &nbsp;
+&nbsp;
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
