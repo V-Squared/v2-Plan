@@ -400,7 +400,7 @@
   font-size: 50px;
 }
 .article-desc {
-  font-size: 18px;
+  font-size: 21px;
   color:#aaa;
 }
 md-content {
@@ -430,11 +430,12 @@ md-content {
 }
 .jumbotron.article-jumbotron {
   //padding:40px 50px 15px 50px;
+  padding-top:0;
   background:#b3e5fc;
   position: relative;
 
   h1 {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
   }
 
   img {
@@ -444,6 +445,10 @@ md-content {
   p {
     padding-top: 10px;
     font-size:15px;
+  }
+  
+  .article-desc {
+    font-size: 21px;
   }
 
   * {

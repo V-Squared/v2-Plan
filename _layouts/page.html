@@ -7,7 +7,7 @@ layout: default
   <div layout="row"  layout-sm="column" no-gap>
     {% include article-nav.html nav=site.data.book-bar %}
     <div flex class="article md-whiteframe-5dp">
-      <div class="jumbotron article-jumbotron" style="padding:20px;">
+      <div class="jumbotron article-jumbotron">
 
         <div layout="row" layout-align="end none">
           <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;">
@@ -17,6 +17,12 @@ layout: default
             <div flex v2-tooltip="<h3>Make</h3>Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." class="{{page.readiness[3]}}"></div>
           </div>
         </div>
+        
+        {% if page.visualURL %}
+        <img src="{{ page.visualURL }}" style="width:100%;">
+        {% endif %}
+        
+        <div style="padding:20px;">
 
         <h1 class="article-title">{{ page.title }}</h1>
 
@@ -24,12 +30,10 @@ layout: default
         <p class="article-desc">{{ page.subtitle }}</p>
         {% endif %}
 
-        {% if page.visualURL %}
-        <img src="{{ page.visualURL }}" style="width:100%;">
-        {% endif %}
-
 
         {% if page.abstract %}<p>{{ page.abstract }}</p>{% endif %}
+          
+          </div>
 
         <md-menu>
 
