@@ -8,7 +8,7 @@ issueNo: 97
 
 
 
-
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 |                     Milestone | Description                                                                                                                                                                                                                                |
 |------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |       [V²Home Page Create][1] | The V² Home Page is extremely complex and has its own Milestone. It is the most important fishing net for us with lots of advanced features.                                                                                               |

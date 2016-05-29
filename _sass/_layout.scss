@@ -440,6 +440,8 @@ md-content {
 
   h1 {
     padding-bottom: 5px;
+    padding-top: 15px;
+    font-size:42px;
   }
 
   p {
@@ -449,6 +451,7 @@ md-content {
   
   .article-desc {
     font-size: 21px;
+    color: #1976D2;
   }
 
   * {
@@ -497,4 +500,10 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
   .is-active {
     background:#FFAB40;
   }
+}
+
+table.table-detail {
+  thead th:first-child {
+    width:20%;
+  } 
 }
