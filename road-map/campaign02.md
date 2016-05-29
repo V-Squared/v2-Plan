@@ -9,7 +9,8 @@ readiness:
    - is-active
 ---
 
-&nbsp;
+&nbsp; <!--This is added to make GitHub Markdown Preview happy to render the table below-->
+
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
