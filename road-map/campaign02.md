@@ -3,6 +3,9 @@ layout: page
 title: Campaign 2
 subtitle: Begin shipping of ViCase and ViPC and increase awareness of V² Modular PC enough to launch Campaign 3
 issueNo: 98
+readiness:
+   - is-complete
+   - is-active
 ---
 
 
