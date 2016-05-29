@@ -466,3 +466,26 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
   border-top: 1px solid rgba(0,0,0,.3);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
 }
+.progess-bar {
+  height:20px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+
+  div {
+    border-left: 2px solid #2196F3;
+    border-bottom: 2px solid #2196F3;
+    background:transparent;
+  }
+
+  div:last-child {
+    border-right:2px solid #2196F3;
+  }
+
+  .is-complete {
+    background:#1976D2;
+  }
+  .is-active {
+    background:#FFAB40;
+  }
+}

@@ -10,21 +10,11 @@ layout: default
       <div class="jumbotron article-jumbotron" style="padding:20px;">
 
         <div layout="row" layout-align="end none">
-          <div class="progess-bar" style="width:300px;">
-            <ol class="progress progress--small" style="font-size:.8em">
-              <li data-step="1" v2-tooltip="Creating the Concept and Specs while getting Community's feedback. Cast your Vote or propose a Feature." ng-class="repository.progress[0]" class="is-complete">
-                Create
-              </li>
-              <li data-step="2" v2-tooltip="Making it happen. If we already moved it to GitHub you can join by Opening Issues with Enhancement Requests or by assiging yourself to Issues in search for an owner or simply Fork, Improve and make a Pull Request." ng-class="repository.progress[1]" class="is-complete">
-                Develop
-              </li>
-              <li data-step="3" v2-tooltip="Beta Testing. Fine tuning Functionality with Pre-Production Units. Get involved and provide enhancement requests. " ng-class="repository.progress[2]" class="is-active">
-                Beta
-              </li>
-              <li data-step="4" v2-tooltip="Enjoy! It is ready to use. Let us know your praise or file a bug report in GitHub Issues." ng-class="repository.progress[3]" class="progress__last">
-                Make
-              </li>
-            </ol>
+          <div layout="row" no-gap class="progess-bar md-whiteframe-3dp" style="width:240px;">
+            <div flex class="is-complete"></div>
+            <div flex></div>
+            <div flex></div>
+            <div flex></div>
           </div>
         </div>
 
@@ -53,13 +43,13 @@ layout: default
               <div flex>
                 <md-menu-item>
                   <md-button href="https://github.com/V-Squared/v2-Plan/edit/gh-pages/{{page.path}}" target="_blank">
-                    <md-icon id="edit-menu" md-svg-icon="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
+                    <md-icon id="edit-menu" md-svg-icon="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg" md-menu-align-target></md-icon>
                     Edit Article
                   </md-button>
                 </md-menu-item>
                 <md-menu-item>
                   <md-button href="https://github.com/V-Squared/v-squared.github.io/issues/{{page.issueNo}}" target="_blank">
-                    <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/issue.svg"></md-icon>
+                    <md-icon md-svg-icon="{{site.baseurl}}/icons/Github/issue.svg" md-menu-align-target></md-icon>
                     Article Issue
                   </md-button>
                 </md-menu-item>
