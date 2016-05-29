@@ -265,3 +265,11 @@ md-backdrop {
 .md-open-menu-container {
   z-index:999999 !important;
 }
+
+#edit-menu path:first-child {
+  fill:#757575;
+}
+
+#board-menu svg {
+  transform: rotate(90deg);
+}
