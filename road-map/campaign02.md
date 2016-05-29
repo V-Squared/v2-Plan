@@ -11,9 +11,6 @@ readiness:
 
 
 
-
-## Milestones in Campaign 02: Community
-
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
 
 |            Milestone | Description                                                                                                                                                                                                               |
