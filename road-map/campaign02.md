@@ -15,7 +15,7 @@ readiness:
 ## Milestones in Campaign 02: Community
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
-| {:.cls}    Milestone | Description                                                                                                                                                                                                               |
+|            Milestone | Description                                                                                                                                                                                                               |
 |---------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     V²Speading Start | Launch of the Section that describes how to spread the word and products. The sub-site and all its pages / Articles are complete.                                                                                         |
 |         V²PC.Configs | Know How Articles and Configuration Data on how to configure a PC for different use. Works in tandem with V²App.Configurator. Contains shopping reference data.                                                           |
