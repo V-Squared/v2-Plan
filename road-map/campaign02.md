@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Sales / Campaign 2
+title: Community Sales Campaign 2
 subtitle: Begin shipping of ViCase and ViPC and increase awareness of V² Modular PC
 abstract: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on V²Case Trailblazer Products. And it is your last chance to give feedback on the product. We also need your continued support to promote V². Tell a friend or post a review. Help us to reach our stretch goal to earn free bonus products. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
 issueNo: 98
