@@ -35,7 +35,7 @@ layout: default
 
           <md-menu>
 
-            <md-button class="md-fab edit-fab" ng-click="vm.openMenu($mdOpenMenu, $event)" aria-label="Edit this article"
+            <md-button style="{% if page.visualURL %}top: -35px;{% else %}bottom: -35px;{% endif %}" class="md-fab edit-fab" ng-click="vm.openMenu($mdOpenMenu, $event)" aria-label="Edit this article"
                        target="_blank">
               <md-icon md-menu-origin md-svg-src="{{site.baseurl}}/icons/ic_mode_edit_white_24px.svg"></md-icon>
             </md-button>
