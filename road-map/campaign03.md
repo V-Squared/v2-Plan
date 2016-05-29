@@ -3,6 +3,9 @@ layout: page
 title: Campaign 3
 subtitle: Work with Press and Retail Channel to further increase Brand Awareness of V² Modular PC to prepare for Campaign 4
 issueNo: 99
+readiness:
+   - is-complete
+   - is-active
 ---
 
 
