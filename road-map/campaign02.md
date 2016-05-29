@@ -15,6 +15,7 @@ readiness:
 ## Milestones in Campaign 02: Community
 
 {:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
 |            Milestone | Description                                                                                                                                                                                                               |
 |---------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     V²Speading Start | Launch of the Section that describes how to spread the word and products. The sub-site and all its pages / Articles are complete.                                                                                         |
