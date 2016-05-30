@@ -377,6 +377,7 @@ Finally each target is broken down into projects, that are manged in GitHub Issu
 
 
 # Labels
+
 ## Purpose
 The purpose of labels is for you to invest a little time into classification to save big time when you need to search.
 
