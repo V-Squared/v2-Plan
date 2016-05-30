@@ -387,7 +387,7 @@ Finally each target is broken down into projects, that are manged in GitHub Issu
 ## Purpose
 The purpose of labels is for you to invest a little time into classification to save big time when you need to search.
 
-## Mandatory Label groups and their function in V²Plan:
+## Mandatory Base Label groups and their function in V²Plan:
 4 mandatory labels have to be selected on issue creation. They are needed for other parts of the V²Plan system to function.
 
 1. m.board: Which Section of our Organization the issue belongs to.
@@ -396,7 +396,7 @@ The purpose of labels is for you to invest a little time into classification to 
 4. m.type: What kind of data is created with execution of the issue.
 
 
-## Optional Label groups and their function in V²Plan:
+## Optional Base Label groups and their function in V²Plan:
 Like the name suggestions you can add optional labels, but you do not have to.
 
 1. o.debt: Technical debt. You close the issue now, but later have to fix the debt.
@@ -412,6 +412,9 @@ The following table lists all labels and explains when to assign what label and 
 
 ## Real world example
 → [GitHub►V²►V-Squared.github.io►Issues►Labels](https://github.com/V-Squared/V-Squared.github.io/labels)
+
+## Consistent Base Labels for each Repository
+For the sake of consistency we have added the same *Base Labels* to each repository. We may choose to add *Special Labels* to repositories with special functions. However, our structure is that all Articles (including those about developments in other repositories) are in the V-Squared.github.io repository and not in the dedicated repository. In turn we need all special labels to be dublicated in the V-Squared.github.io repository.
 
 ## Tip
 Most repositories use colons in the label name to structure groups. E.g. "sprint: now". This leads to hard to read URLS: ```https://github.com/V-Squared/V-Squared.github.io/labels/sprint%3A%20now```. Using dots gives you two benefits: First your label names are shorter: "sprint.now". Second your URL remains legible: ```https://github.com/V-Squared/V-Squared.github.io/labels/sprint.now```
