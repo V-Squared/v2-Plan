@@ -7,18 +7,6 @@ issueNo: 75
 ---
 
 
---------------------------
-
-# Status
-
-| Type  | Info |
-|------:|:-----|
-| Source | StackEdit►V²Plan Reference Manual |
-| Readiness | Develop |
-| On GitHub | [plan-reference.md](https://github.com/V-Squared/v2-Plan/blob/gh-pages/system/plan-reference.md) |
-
---------------------------
-
 
 
 
@@ -386,6 +374,26 @@ Finally each target is broken down into projects, that are manged in GitHub Issu
 - 
 ## Road Map & Campaigns Home³
 ## Projects Home³
+
+
+# Labels
+## Purpose
+The purpose of labels is for you to invest a little time into classification to save big time when you need to search.
+
+## Labels in V²Plan store the following information:
+
+1. Sprint: Column information for Waffle Kanban Board
+2. Data Type
+3. Board (Section) Assignment
+
+## Color Code
+- Visually groups labels for faster access and faster comprehension
+
+## When to assign what label
+The following table lists all labels and explains when to assign what label and what actions are requested by the assignment of a label.
+
+## Real world example
+→ [GitHub►V²►V-Squared.github.io►Issues►Labels](https://github.com/V-Squared/V-Squared.github.io/labels)
 
 
 # Navigation in Plan
