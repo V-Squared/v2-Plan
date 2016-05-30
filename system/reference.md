@@ -4,6 +4,9 @@ title: V² Plan Reference
 subtitle: Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to Agile Development.
 abstract: The Reference Manual to V²Plan serves two purposes&#58; <strong>1)</strong> The theoretical look behind the scenes shows the Architecture of V²Plan with occasional goodies such as an explanation why we made particular choices. This background information will help you to better remember the V²Agile Workflows. <strong>2)</strong> A place to quickly look up information.
 issueNo: 75
+contents:
+  - name: Labels
+    url: labels
 readiness:
   - is-complete
   - is-active
@@ -379,20 +382,26 @@ Finally each target is broken down into projects, that are manged in GitHub Issu
 ## Projects Home³
 
 
-# Labels
+# Labels <a name="labels"></a>
 
 ## Purpose
 The purpose of labels is for you to invest a little time into classification to save big time when you need to search.
 
-## Labels groups and their function in V²Plan:
+## Mandatory Label groups and their function in V²Plan:
+4 mandatory labels have to be selected on issue creation. They are needed for other parts of the V²Plan system to function.
 
-1. board: Which Section of our Organization the issue belongs to.
-2. debt: Technical debt. It need to searched for and found later.
-3. help: What kind of helpt the Assignee is looking for.
-4. size: Size of issue to give idea on how long it takes to finish
-5. sprint: Column information for Waffle Kanban Board.
-6. type: What kind of data is created with execution of the issue.
-7. urgent: What needs to be done ASAP.
+1. m.board: Which Section of our Organization the issue belongs to.
+2. m.size: Size of issue to give idea on how long it takes to finish
+3. m.sprint: Column information for Waffle Kanban Board.
+4. m.type: What kind of data is created with execution of the issue.
+
+
+## Optional Label groups and their function in V²Plan:
+Like the name suggestions you can add optional labels, but you do not have to.
+
+1. o.debt: Technical debt. You close the issue now, but later have to fix the debt.
+2. o.help: What kind of help the Assignee is looking for.
+3. o.urgent: What needs to be done ASAP.
 
 
 ## Color Code
@@ -406,6 +415,9 @@ The following table lists all labels and explains when to assign what label and 
 
 ## Tip
 Most repositories use colons in the label name to structure groups. E.g. "sprint: now". This leads to hard to read URLS: ```https://github.com/V-Squared/V-Squared.github.io/labels/sprint%3A%20now```. Using dots gives you two benefits: First your label names are shorter: "sprint.now". Second your URL remains legible: ```https://github.com/V-Squared/V-Squared.github.io/labels/sprint.now```
+
+## Tip
+Name your labels so that the important labels are listed on top. GitHub displays labels in alphanumeric order. So choose your names accordingly. E.g. we grouped our labels into mandatory and optional and added "m." and "o." prefix to the label names. Mandatory labels are more important and are listed first. This is not by accident. We choose the names "mandatory" and "optional" so that the more imporant one is listed first in alphabetical order.
 
 
 # Navigation in Plan
