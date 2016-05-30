@@ -381,11 +381,16 @@ Finally each target is broken down into projects, that are manged in GitHub Issu
 ## Purpose
 The purpose of labels is for you to invest a little time into classification to save big time when you need to search.
 
-## Labels in V²Plan store the following information:
+## Labels groups and their function in V²Plan:
 
-1. Sprint: Column information for Waffle Kanban Board
-2. Data Type
-3. Board (Section) Assignment
+1. board: Which Section of our Organization the issue belongs to.
+2. debt: Technical debt. It need to searched for and found later.
+3. help: What kind of helpt the Assignee is looking for.
+4. size: Size of issue to give idea on how long it takes to finish
+5. sprint: Column information for Waffle Kanban Board.
+6. type: What kind of data is created with execution of the issue.
+7. urgent: What needs to be done ASAP.
+
 
 ## Color Code
 - Visually groups labels for faster access and faster comprehension
