@@ -4,6 +4,9 @@ title: V² Plan Reference
 subtitle: Architecture, Data Structure, Tools, Visualization and Navigation of V²Plan. Mapping of V²Plan to Agile Development.
 abstract: The Reference Manual to V²Plan serves two purposes&#58; <strong>1)</strong> The theoretical look behind the scenes shows the Architecture of V²Plan with occasional goodies such as an explanation why we made particular choices. This background information will help you to better remember the V²Agile Workflows. <strong>2)</strong> A place to quickly look up information.
 issueNo: 75
+readiness:
+  - is-complete
+  - is-active
 ---
 
 
@@ -432,12 +435,4 @@ These are the improvements when compared to previous method of planning:
 - [angular-gantt](https://github.com/angular-gantt/angular-gantt) Reads Gantt Data from JSON and renders Gantt Chart as HTML + SVG + CSS. We will use this one first.
 - [gh-issues-gantt](https://github.com/neyric/gh-issues-gantt) automatically render Gantt Chart of GitHub Issues. We may use this as an example project to understand how to read the GitHub API. Then write the data into the JSON of **angular-gantt**.
 
-# Tasks
-- [x] HC: Get feedback from SL → Completely rewritten after feedback
-- [x] HC: Find a FOSS Gantt Chart plugin written in Angular reading its data from Angular
-- [x] HC: Initial evaluation of https://waffle.io → Adds boards to GitHub Management. Works like Trello Boards, but with GitHub integration. For us it will be zero cost.
-- [x] HC: Create initial Waffle Board → https://waffle.io/V-Squared/V-Squared.github.io Was easy and straight forward. Assign to column using GitHub Issues Label
-- [ ] HC: Rewrite Plan in V² Home Page to reflect new terminology
-- [ ] HC: Complete this Article
-- [ ] LC: Read this article and give feedback to HC
-- [ ] LC: Create a repository "Plan". Prepare it for Jekyll. Cross link it with V² Home Page. 
+
