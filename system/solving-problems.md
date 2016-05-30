@@ -27,29 +27,21 @@ contents:
 
 
 
-# <a id="frustration"></a> Frustration of Too Slow Progress
+# Frustration of Too Slow Progress {#frustration}
 
 ## How the Problem Showed
 
 ## Fix with V²PLan
 
 
-# Slow Implementation of Contribution <a name="slow-implementation"></a>
+# Slow Implementation of Contribution {#slow-implementation}
 
 ## How the Problem Showed
 
 ## Fix with V²PLan
 
 
-# No Clear Management Structure <a name="no-management"></a>
-
-## How the Problem Showed
-
-## Fix with V²PLan
-
-
-
-# Hard to Find Best Work for Next Sprint <a name="hard-find-work"></a>
+# No Clear Management Structure {#no-management}
 
 ## How the Problem Showed
 
@@ -57,7 +49,7 @@ contents:
 
 
 
-# Tedious Sprint Management<a name="tedious-sprint"></a>
+# Hard to Find Best Work for Next Sprint {#hard-find-work}
 
 ## How the Problem Showed
 
@@ -65,7 +57,7 @@ contents:
 
 
 
-# No Clear Targets Published <a name="no-targets"></a>
+# Tedious Sprint Management {#tedious-sprint}
 
 ## How the Problem Showed
 
@@ -73,7 +65,7 @@ contents:
 
 
 
-# No Road Map Published <a name="no-road-map"></a>
+# No Clear Targets Published {#no-targets}
 
 ## How the Problem Showed
 
@@ -81,7 +73,7 @@ contents:
 
 
 
-# No Ticket System for Bugs and Ideas <a name="no-ticket-system"></a>
+# No Road Map Published {#no-road-map}
 
 ## How the Problem Showed
 
@@ -89,7 +81,15 @@ contents:
 
 
 
-# No Transparency of Development <a name="no-transparency"></a>
+# No Ticket System for Bugs and Ideas {#no-ticket-system}
+
+## How the Problem Showed
+
+## Fix with V²PLan
+
+
+
+# No Transparency of Development {#no-transparency}
 
 ## How the Problem Showed
 
