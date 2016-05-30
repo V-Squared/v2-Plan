@@ -27,7 +27,7 @@ contents:
 
 
 
-# Frustration of Too Slow Progress <a name="frustration"></a>
+# <a name="frustration"></a> Frustration of Too Slow Progress
 
 ## How the Problem Showed
 
