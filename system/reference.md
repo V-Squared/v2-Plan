@@ -7,6 +7,8 @@ issueNo: 75
 contents:
   - name: Labels
     url: labels
+  - name: Repositories
+    url: repositories
 readiness:
   - is-complete
   - is-active
@@ -380,6 +382,69 @@ Finally each target is broken down into projects, that are manged in GitHub Issu
 - 
 ## Road Map & Campaigns Home³
 ## Projects Home³
+
+
+# Repositories <a name="repositories"></a>
+
+## Introduction to GitHub Repository
+If you are familiar with GitHub Repositories you are safe to skip this chapter. But in case you are not 100% sure, here is brief summary of the key features:
+
+### Git
+Git was invented by Linus Torvalds, the creater of Linux. He wanted a safer and faster Revision Management System than were available. GitHub is a Git Server, thus the name. Git has a few unique features versus traditional Revision Management Systems:
+
+- **Very Safe:** If you put your data into a Git Repository it will be almost impossible to loose it. And the more people use it, the more safe your data will be.
+- **Very Fast:** You can work with all your files on your local disk. This makes working as fast as your computer versus working as fast your network connection in traditional Revision Management Systems.
+- **Works Offline:** Ideal when you have local or no internet connection
+- **Huge Community:** The developer community using GitHub is in the millions of people. Big projects like Linux or big organisations like Microsoft are on GitHub.
+- **Free for Open Source:** Open Source project are hosted for free on GitHub with access to all features.
+- **Free Web Hosting:** The GitHub hosting service includes hosting of a complete web site. Our web site V²Site is hosted using this *GitHub Pages* service.
+ 
+### <> Code
+This is where you code resides. It is the key function of Git and of a Git Server, such as GitHub.
+
+### GitHub Flow
+Git allows many workflows. In fact so many that it easily gives you enough rope to hang yourself. GitHub provides a very simple yet very powerful Git Workflow: *GitHub Flow*. It works for a team of 2 people and even for a company with 500 contributors. GitHub itself is developed using *GitHub Flow*.
+
+### GitHub Issues
+A full blown bug tracking and ticket system. It may appear simple, but the power is available under the hood. V²Plan sits on top of *GitHub Issues* and only extends its features when they are missing.
+
+### GitHub Accounts
+Anyone can create a GitHub account. It is free and fast to create. You can create your repositories or fork any public repository such as ours. Usually you get your work done as a GitHub User using your Account working on Forks. Creating a Fork is one mouse click and takes a second. Once you completed your work you click "Pull-Request" button.
+
+### GitHub Organizations
+Anyone can create a GitHub Organization. Like the name suggests it is for organizations as in a group of people working together. An organisation has repositories, where the work gets done. V² is a GitHub Organization.
+
+### GitHub Jekyll
+Jekyll is a web site compiler. The output is a static website. During compilation Jekyll merges its templates with your content to create a web site that can be as complex as you are used to by complex *Content Management Systems* such as Joomla. V² is a web site project with a 5 Level Navigation and when finished more than 1000 pages. We are creating it using Jekyll.
+
+
+## Two Types of Repositories
+
+### Web Site Repository
+Each *GitHub Organization* can create one special repository with the name: {organization-name}.github.io. Our *Organization Name* is *V-Squared* so our web site repository name is: ```V-Squared.github.io```. The content in the ```master``` branch will be interpreted by GitHub as the *GitHub Web Site* for your *Organization*. It creates automatically the URL: https://{organization-name}.github.io which in our case is: [https://v-squared.github.io/](https://v-squared.github.io/). Thanks to HTTPS in combination with the Jekyll pre-compiler concept this site is very fast.
+
+Each *Project Repository* has its own gh-pages web site. For consistency and simplicity reason we have opted for now to host all web pages in this repository. This means all web pages in regards to other *Project Repositories* are also hosted here. 
+
+### Project Repository
+All Projects that are not the organization web site are Project repositories. Your Project Repositories will differ of course. For our reference and possibly your inspiration, here is a list of our current *Project Repositories*:
+
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+| Repository | Purpose |
+|------------:|:-------------------|
+| v2-Tabs | Angular Tabs that can be selected and scrolled toward with a deep URL using hashtag. Compatible with ng-repeat. |
+| v2-Tooltip | SVG and HTML responsive Angular Tooltip Directive. Supports: Touch Screen, Mouse Over and Links and HTML in Tooltip|
+| v2-Production | All Production information on V² Trailblazer Products: Production Dates, Known Issues, Feature Requests, Versions. |
+| v2-Art | All Artwork used in V² Projects |
+| v2-Configurator | Powerful, yet simple to use PC Configutator with community features |
+
+**Tip:** If you are unsure if your new project belongs into the *Web Site Repository* or into a new *Project Repository* you can figure this out by asking yourself the following questions:
+
+- Goes to *Web Site Repository* if answered with yes:
+   - Are all project files Articles?
+   - If you have project files that are web apps, are these web apps only used on our web site?
+- Goes to new *Project Repository* if answered with yes:
+   - Do project files include other files than Articles?
+   - If project files are a web app, will they be used on other web sites than ours?
 
 
 # Labels <a name="labels"></a>
