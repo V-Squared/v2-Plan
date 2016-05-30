@@ -404,6 +404,9 @@ The following table lists all labels and explains when to assign what label and 
 ## Real world example
 → [GitHub►V²►V-Squared.github.io►Issues►Labels](https://github.com/V-Squared/V-Squared.github.io/labels)
 
+## Tip
+Most repositories use colons in the label name to structure groups. E.g. "sprint: now". This leads to hard to read URLS: ```https://github.com/V-Squared/V-Squared.github.io/labels/sprint%3A%20now```. Using dots gives you two benefits: First your label names are shorter: "sprint.now". Second your URL remains legible: ```https://github.com/V-Squared/V-Squared.github.io/labels/sprint.now```
+
 
 # Navigation in Plan
 
