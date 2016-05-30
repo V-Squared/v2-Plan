@@ -299,7 +299,6 @@ The work to do is listed in GitHub Issues. But it is hard to develop and apply t
 
 ## Teams
 
-## Repositories
 
 ## Round Trip Navigation
 - **In Gantt:** 
