@@ -22,7 +22,7 @@ readiness:
 |             [V²Org Create][4] | This V²Site Board tells who we are, what are our bylaws and our license agreements and how to contribute. All that is needed to attract contributors will be finished.                                                                   |
 |             [V²Art Create][5] | Launch of V²Art. All Articles, Workflows, Folder Structures, Nomenclature and file hosting services are up in order to create and host artwork for our web sites. It is possible for contributors to create art that is consistent to our CI.|
 |       [Visuals for V²Home][6] | This page has about 50 custom visuals. This Milestone creates an Issue for every Image Group with instructions on creating and editing.                                                                                                    |
-| [ V²Case Mini Gold Sample][7] | Final ViCase Mini Case. Latest design with integrated PSU and Surge Protection. Made completely in Aluminum. Full optimized for mass production. 1 pcs. We will take picture and video here, then send the case to Bobby for final review. |
+| [ V²Case Mini Gold Sample][7] | Final ViCase Mini Case. Latest design with integrated PSU and Surge Protection. Made completely in Aluminum. Full optimized for mass production. 1 pcs. We will take picture and video here, then send the case to Bobby for final review. [Production-Scrum][11]|
 |             [V²Shop Proto][8] | Complete working shop in Shopify. Landing Page, About Page, Products Pages, Products Overview Page, check out, payment. Speed of payment is tested too. Works on Mobile. True cost per sales. Cash Flow per Sales                          |
 |            [V²Intro Video][9] | Re-edit of ViCase Campaign Movie with updated story flow to new situation. We are using all existing footage. Where needed we make subtitles or show new images when new design is different.                                              |
 |           [V²Site Launch][10] | Launch of V² Site. Home Page is completely finished. All boards needed to a) attract contributors and b) to utilize contributions are completed. Plan and Org Boardss are fully completed.                                             |
@@ -37,3 +37,4 @@ readiness:
 [8]: https://github.com/V-Squared/V-Squared.github.io/milestones/V%C2%B2Shop%20Proto
 [9]: https://github.com/V-Squared/V-Squared.github.io/milestones/V%C2%B2Intro%20Video%20%09
 [10]: https://github.com/V-Squared/V-Squared.github.io/milestones/V%C2%B2Site%20Launch%20%09
+[11]: https://waffle.io/V-Squared/v2-Production
