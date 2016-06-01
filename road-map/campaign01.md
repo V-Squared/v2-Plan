@@ -7,7 +7,8 @@ issueNo: 97
 readiness:
   - is-complete
   - is-complete
-  - is-active
+  - is-complete
+  - is-complete
 ---
 
 &nbsp; <!--This is added to make GitHub Markdown Preview happy to render the table below-->
