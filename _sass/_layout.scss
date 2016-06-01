@@ -486,13 +486,12 @@ html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
   right: 20px;
 
   div {
-    border-left: 2px solid #2196F3;
-    border-bottom: 2px solid #2196F3;
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
     background:transparent;
   }
 
-  div:last-child {
-    border-right:2px solid #2196F3;
+  div:first-child {
+    border-left:0;
   }
 
   .is-complete {
