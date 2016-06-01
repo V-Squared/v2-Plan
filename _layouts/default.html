@@ -10,8 +10,7 @@
     <div class="jumbotron">
       <div class="uk-container uk-container-center">
         {% for board in site.data.board-bar %}
-        {{board}} {{page.url}}
-        {% if page.url contains board.url %}
+        {% if page.url contains '/' %}
         <h1>{{board.title}}</h1>
         <p>{{board.subtitle}}</p>
         {% endif %}
