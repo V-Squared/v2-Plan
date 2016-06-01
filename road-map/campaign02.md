@@ -6,6 +6,7 @@ abstract: V²Case has been developed with the Community. This is our opportunity
 issueNo: 98
 readiness:
    - is-complete
+   - is-complete
    - is-active
 ---
 
@@ -19,10 +20,12 @@ readiness:
 |    V²►Speading Start | Launch of the Section that describes how to spread the word and products. The sub-site and all its pages / Articles are complete.                                                                                         |
 |         V²PC.Configs | Know How Articles and Configuration Data on how to configure a PC for different use. Works in tandem with V²App.Configurator. Contains shopping reference data.                                                           |
 |             V²PC.DIY | PC Know How Articles. Basic PC assembly know how that is referred to by V²PC.Configs articles                                                                                                                             |
+|      QA Testing ViPC | Testing Quality of all parts used in ViCase. Stage 1 is separate testing of parts. Stage 2 is testing a comple ViPC configuration |
 |       ViCase Mini R1 | Production Run 1. 20 pcs. Same design as ViCase Mini Gold Sample, but including bug fixes.                                                                                                                                |
-| Vicase Promotions | Create a campaign page in the same format as a crowd funding project, having all crowd funding benefits without their risks |
+|    ViCase Promotions | Create a campaign page in the same format as a crowd funding project, having all crowd funding benefits without their risks |
 |     ViCase Mini Ship | Resolve all issues needed to ship ViCase: Packaging, Shipping Cost, cost of selling one ViCase in the shop, etc ...                                                                                                       |
 |       ViCase Mini R2 | Production Run 2. 100 pcs. Same design as ViCase Mini R1, but including bug fixes.                                                                                                                                        |
+|      Previews ViCase | Find reviewers who are interested in being the first to show new innovative products and / or who care that V² is providing the missing standard for Mini and All-In-One PCs. Schedule visits and demo the Golden Sample |                                                                                                  |
 |       Reviews ViCase | All things that need to be done to get ViCase in front of reviewers and to support the reviewer until the review is out.                                                                                                  |
 |    V²►Products Start | All essential pages of Products Board on V² are ready with sufficient content. These pages are the foundation of ViSite. |  
 |        ViSite Launch | Launch of Village Tronic Web Site. All pages and functions complete to support selling ViCase and to provide support for customer.                                                                                        |
