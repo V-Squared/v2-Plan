@@ -31,10 +31,10 @@
   subtitle: >
     How to tell the story of a smaller, quieter, more modular and upgradable PC and how to get it into the hands of the user.
 - menu: Plan
-  url: /plan/
-  title: Plan
+  url: /v2-Plan/
+  title: V²Plan
   subtitle: >
-    How V² will improve your life, how we make it happen and how you can help.
+    How V² will improve your life, how we make it happen and how you can help. In addition V²Plan System is growing into a generic Agile Development & Toyota Production System easily adaptable to any GitHub Organization.
 - menu: Organization
   url: /organization/
   title: Organization
