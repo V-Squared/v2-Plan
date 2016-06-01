@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Community Promotion Campaign 2
-subtitle: Begin shipping of ViCase and ViPC while increasing awareness of V² Modular PC
-abstract: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on ViCase and ViPC Trailblazer Products. Check out the innovate ViCase and ViPC products in the V²Shop. Help us to promote the V² Shop by telling your friends to help us to reach our stretch goal and you will earn free bonus products. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
+subtitle: Begin shipping ViCase and ViPC while increasing awareness of V² Modular PC
+abstract: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on ViCase and ViPC Trailblazer Products. Check out the innovative ViCase and ViPC products in the V²Shop. Help us promote the V² Shop by telling your friends to help us reach our stretch goal and you will earn free bonus products. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
 issueNo: 98
 readiness:
    - is-complete
