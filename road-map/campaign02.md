@@ -2,7 +2,7 @@
 layout: page
 title: Community Promotion Campaign 2
 subtitle: Begin shipping of ViCase and ViPC while increasing awareness of V² Modular PC
-abstract: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on ViCase and ViPC Trailblazer Products. We do this with our own crowd funding cmapaign. Help us to reach our stretch goal by telling your friends and you will earn free bonus products on your ViCase / ViPC. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
+abstract: V²Case has been developed with the Community. This is our opportunity to give back with Community discounts on ViCase and ViPC Trailblazer Products. Check out the innovate ViCase and ViPC products in the V²Shop. Help us to promote the V² Shop by telling your friends to help us to reach our stretch goal and you will earn free bonus products. The final goal of this campaign is to reach enough awareness to launch the Press & Shop Campaign 3.
 issueNo: 98
 readiness:
    - is-complete
@@ -20,7 +20,7 @@ readiness:
 |         V²PC.Configs | Know How Articles and Configuration Data on how to configure a PC for different use. Works in tandem with V²App.Configurator. Contains shopping reference data.                                                           |
 |             V²PC.DIY | PC Know How Articles. Basic PC assembly know how that is referred to by V²PC.Configs articles                                                                                                                             |
 |       ViCase Mini R1 | Production Run 1. 20 pcs. Same design as ViCase Mini Gold Sample, but including bug fixes.                                                                                                                                |
-| Vicase Crowd Funding | Create a campaign page in the same format as a crowd funding project |
+| Vicase Promotions | Create a campaign page in the same format as a crowd funding project, having all crowd funding benefits without their risks |
 |     ViCase Mini Ship | Resolve all issues needed to ship ViCase: Packaging, Shipping Cost, cost of selling one ViCase in the shop, etc ...                                                                                                       |
 |       ViCase Mini R2 | Production Run 2. 100 pcs. Same design as ViCase Mini R1, but including bug fixes.                                                                                                                                        |
 |       Reviews ViCase | All things that need to be done to get ViCase in front of reviewers and to support the reviewer until the review is out.                                                                                                  |
