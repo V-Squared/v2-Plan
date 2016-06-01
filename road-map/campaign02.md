@@ -17,7 +17,8 @@ readiness:
 
 |            Milestone | Description                                                                                                                                                                                                               |
 |---------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    V²►Speading Start | Launch of the Section that describes how to spread the word and products. The sub-site and all its pages / Articles are complete.                                                                                         |
+|    V²►Speading Start | Launch of the Board that describes how to spread the word and products. The sub-site and all its pages / Articles are complete.                                                                                         |
+|    V²►Standard Start | Launch of the Missing Standards Board. We begin with creating missing Power Supply standards for Mini and All-IN-One PCs | 
 |         V²PC.Configs | Know How Articles and Configuration Data on how to configure a PC for different use. Works in tandem with V²App.Configurator. Contains shopping reference data.                                                           |
 |             V²PC.DIY | PC Know How Articles. Basic PC assembly know how that is referred to by V²PC.Configs articles                                                                                                                             |
 |      QA Testing ViPC | Testing Quality of all parts used in ViCase. Stage 1 is separate testing of parts. Stage 2 is testing a comple ViPC configuration |
