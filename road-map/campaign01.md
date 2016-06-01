@@ -2,7 +2,7 @@
 layout: page
 title: V²Site Launch Campaign 1
 subtitle: Creating the V² Platform completed enough to attract and coordinate contributors.
-abstract: Our first big target is to ship products. This gets them in front of reviewers and into the hands of users. It also provides funding to our work, and this what Campaign 2 is all about that. Campaign 1 is about laying the foundation&#58;  Create the V² web site that publishes our targets, how we get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. It also gives you very easy methods to report bugs and request features via issues and and in turn provides us with the tools to track, rate and close these issues very efficiently.  
+abstract: It is important to ship products. This gets them in front of reviewers and into the hands of users, shows what products you can build with the V² standard, and provides funding to our work, which is what Campaign 2 is all about that. Campaign 1 is about laying the foundation&#58;  Create the V² web site that publishes our targets, how we get there, who we are and how this helps you. We also create the tools to make contribution very easy and fast. This helps us work faster and will attract more contributors to help V² move faster. It also gives you very easy methods to report bugs and request features via issues and and in turn provides us with the tools to track, rate and close these issues very efficiently.  
 issueNo: 97
 readiness:
   - is-complete
