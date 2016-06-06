@@ -32,6 +32,8 @@ readiness:
 
 ### Focus this Week
 
+{:.uk-table.uk-table-hover.uk-table-striped.table-detail}
+
 | Team | Key Target this week |
 |------:|:--------------------|
 | Shop + Site | Create V²DIY |
