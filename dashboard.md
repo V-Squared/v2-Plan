@@ -38,5 +38,5 @@ readiness:
 |------:|:--------------------|
 | Shop + Site | Create: V²DIY, all its pages, transfer DIY & Config Article, begin again writing, create concept of DIY data & DIY Apps |
 | Shop + Engineering | Review / finalize ViCase |
-| Engineering | Put ViCase to production: Final Review, Tape Out |
+| Engineering | Put ViCase to production: Final Review, Tape Out, Begin BTL PCBs |
 | Leading | Legal protection of IP |
