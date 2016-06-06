@@ -24,3 +24,17 @@ readiness:
    - Production
    - Bring to Life
    - Shipping / Clsoing
+ 
+   
+# Weekly Sprints
+
+## Sprint Week 23
+
+### Focus this Week
+
+| Team | Key Target this week |
+|------:|:--------------------|
+| Shop + Site | Create V²DIY |
+| Shop + Engineering | Review / finalize ViCase |
+| Engineering | Put ViCase to production |
+| Leading | Legal protection of IP |
