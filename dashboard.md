@@ -36,7 +36,7 @@ readiness:
 
 | Team | Key Target this week |
 |------:|:--------------------|
-| Shop + Site: | Create V²DIY |
-| Shop + Engineering: | Review / finalize ViCase |
-| Engineering: | Put ViCase to production |
-| Leading: | Legal protection of IP |
+| Shop + Site | Create: V²DIY, all its pages, transfer DIY & Config Article, begin again writing, create concept of DIY data & SIY Apps |
+| Shop + Engineering | Review / finalize ViCase |
+| Engineering | Put ViCase to production: Final Review, Tape Out |
+| Leading | Legal protection of IP |
