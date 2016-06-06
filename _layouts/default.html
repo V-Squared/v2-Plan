@@ -5,20 +5,20 @@
 
   <body ng-controller="mainController as vm">
 
-    {% include header.html %}
+    {% include board-bar.html %}
 
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color:#FC2929;color:#FFF">
       <div class="uk-container uk-container-center">
         {% for board in site.data.board-bar %}
         {% if board.url == '/' %}
-        <h1>{{board.title}}</h1>
-        <p>{{board.subtitle}}</p>
+        <h1 style="color:#FFF;font-size:60px;">!!! We moved !!!</h1>
+        <p style="color:#FFF">New address → <a href="http://v-squared.github.io/plan/">http://v-squared.github.io/plan/</a> If you were to make edits here now, they will be deleted later. So do not do it in the new place!</p>
         {% endif %}
         {% endfor %}
       </div>
     </div>
     
-    {% include sub-header.html nav=site.data.book-bar %}
+    {% include book-bar.html nav=site.data.plan-bookBar %}
 
     <div class="page-content">
       <div class="uk-container content-body uk-container-center">
